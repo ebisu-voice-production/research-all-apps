@@ -1,6 +1,7 @@
 {
   "private": true,
   "name": "evp-research-all-apps",
+  "version": "1.0.0",
   "dependencies": {
     "moment": "latest",
     "request": "latest",
