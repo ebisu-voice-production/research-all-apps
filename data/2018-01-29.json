@@ -1,0 +1,1154 @@
+[
+  {
+    "id": "services/a/uid/0000007769c92c6a?hl=ja",
+    "name": "Weather JP",
+    "author": "Shingo N.",
+    "description": "WeatherJP は、気象庁の情報を利用して、一週間先までの日本各地の天気を知ることが出来ます。\n\n感想や要望等ありましたら、メールや以下の Twitter アカウントまでいただけるとありがたいです。\n\nTwitter: poke_dev"
+  },
+  {
+    "id": "services/a/uid/000000b89198a089?hl=ja",
+    "name": "30秒カウントダウン",
+    "author": "恵比寿ボイスプロダクション",
+    "description": "このアプリは30秒を計測してくれるアプリです。\nこのアプリにつなぐと、すぐにカウントダウンを開始します。\nカウントダウンが終わるとアプリは終了します。\nカウントダウンは正確な時間と比較して誤差がある場合があります。"
+  },
+  {
+    "id": "services/a/uid/00000059754599e1?hl=ja",
+    "name": "おすすめの映画",
+    "author": "恵比寿ボイスプロダクション",
+    "description": "このアプリが起動するとおすすめの映画を教えるメッセージを聞いてきます。自分のおすすめの映画を教えるメッセージを登録すると、他の人がおすすめしている映画のメッセージを聞くことができます。"
+  },
+  {
+    "id": "services/a/uid/000000e1394918e7?hl=ja",
+    "name": "花咲か爺さん物語",
+    "author": "恵比寿ボイスプロダクション",
+    "description": "花咲かじじいの物語を読んでくれます"
+  },
+  {
+    "id": "services/a/uid/00000003e4d5f0bf?hl=ja",
+    "name": "分福茶釜物語",
+    "author": "恵比寿ボイスプロダクション",
+    "description": "分福茶釜の物語を読んでくれます"
+  },
+  {
+    "id": "services/a/uid/000000be213cfb77?hl=ja",
+    "name": "舌切り雀物語",
+    "author": "恵比寿ボイスプロダクション",
+    "description": "舌切りすずめの物語を読んでくれます"
+  },
+  {
+    "id": "services/a/uid/000000ab634d1a07?hl=ja",
+    "name": "金太郎物語",
+    "author": "恵比寿ボイスプロダクション",
+    "description": "金太郎の物語を読んでくれます"
+  },
+  {
+    "id": "services/a/uid/00000075811b9d81?hl=ja",
+    "name": "ラプンツェル物語",
+    "author": "恵比寿ボイスプロダクション",
+    "description": "ラプンツェルの物語を読んでくれます"
+  },
+  {
+    "id": "services/a/uid/000000c4f5647824?hl=ja",
+    "name": "白雪姫物語",
+    "author": "恵比寿ボイスプロダクション",
+    "description": "白雪姫の物語を読んでくれます"
+  },
+  {
+    "id": "services/a/uid/0000001c12cf8f9d?hl=ja",
+    "name": "赤ずきんちゃん物語",
+    "author": "恵比寿ボイスプロダクション",
+    "description": "赤ずきんちゃんの物語を読んでくれます"
+  },
+  {
+    "id": "services/a/uid/0000009ecd7f8bd9?hl=ja",
+    "name": "かちかち山物語",
+    "author": "恵比寿ボイスプロダクション",
+    "description": "かちかち山の物語を読んでくれます"
+  },
+  {
+    "id": "services/a/uid/0000002ae83570f9?hl=ja",
+    "name": "ヘンゼルとグレーテル物語",
+    "author": "恵比寿ボイスプロダクション",
+    "description": "ヘンゼルとグレーテルの物語を読んでくれます"
+  },
+  {
+    "id": "services/a/uid/000000a94f8bdcb1?hl=ja",
+    "name": "好きなアニメ",
+    "author": "恵比寿ボイスプロダクション",
+    "description": "このアプリが起動すると好きなアニメを聞いてきます。自分の好きなアニメを教えると、他に何人の人が同じアニメを好きかを教えてくれます。登録されていないアニメもあります。"
+  },
+  {
+    "id": "services/a/uid/00000018ce68a943?hl=ja",
+    "name": "ねずみの嫁入り物語",
+    "author": "恵比寿ボイスプロダクション",
+    "description": "ねずみの嫁入りの物語を読んでくれます"
+  },
+  {
+    "id": "services/a/uid/000000e5799be270?hl=ja",
+    "name": "TED Talk レコメンド",
+    "author": "Yoichiro Hasebe",
+    "description": "TED Talkの検索エンジンTCSEがお薦めのTED Talkを教えます。「テッドトークレコメンドにつないで」に続いてキーワードを伝えると、そのキーワードに関連するトークをランダムにピックアップして、タイトルと概要を読み上げます。"
+  },
+  {
+    "id": "services/a/uid/000000eec4f315f6?hl=ja",
+    "name": "数当てクイズ",
+    "author": "Hirokazu Takatama",
+    "description": "私が考えた3桁の数字を当ててみてください。数字は0から9で、重ならないように使います。例えば、094 です。あなたが数字を答えると、私はヒントを出します。桁も数字もあっている場合はホームラン、桁は違うけれど数字が同じならヒットです。例えば、492 なら 1 ホームラン、1 ヒットです。\n\n桁数を変えて遊ぶこともできます。例えば「数当てクイズに4桁と頼んで」と呼びかけてください。"
+  },
+  {
+    "id": "services/a/uid/0000000b9551ab62?hl=ja",
+    "name": "ロト ロト",
+    "author": "Stratos Heavy Industry",
+    "description": "ロト7とロト6の番号を生成することができるジェネレータです。"
+  },
+  {
+    "id": "services/a/uid/000000eb7a345a2e?hl=ja",
+    "name": "おすすめのスマートフォン",
+    "author": "恵比寿ボイスプロダクション",
+    "description": "このアプリが起動するとおすすめのスマートフォンを聞いてきます。自分のおすすめのスマートフォンを教えると、他に何人の人が同じスマートフォンをおすすめしているかを教えてくれます。"
+  },
+  {
+    "id": "services/a/uid/000000321584136f?hl=ja",
+    "name": "ヨシオくん 危機一髪！",
+    "author": "KANTETSU WORKS",
+    "description": "[ VoiceApp Lab Presents ]\nひょんなことから、ロシアンルーレットを無理強いされたヨシオくん。リボルバーには１発の銃弾。チャンスは５回です。あなたは、サディステックなアシスタントさんに屈することなく、５連続セーフでヨシオくんを助け出すことができるか！？\n\n１〜３人で遊ぶことができます。下記を参考にプレイしてみてください。\n\n■ A）ノーマルゲーム\n連続セーフを目指します。２、３人でやるときは、交互に答えて先にアウトだった人が負け。クリアの場合は引き分けです。\n\n■ B）推理ゲーム\n基本的にAと同じですが、「３番ですか？」などと、ヒントを聞いても良いことにします。ヒントも１ターンとし、「ノーコメント」と言われても、次の人の番となります。\n\n■ C）サディスティックゲーム\nAの逆バージョンです。先にアウトした人が勝ちです。\n\n↓気に入ったら★★★★★をお願いします！"
+  },
+  {
+    "id": "services/a/uid/0000002232d88b58?hl=ja",
+    "name": "どっちでショー",
+    "author": "KANTETSU WORKS",
+    "description": "[ VoiceApp Lab Presents ]\nQ：カレーに入れたいのは、福神漬け？それともラッキョウ？\n\n何気ない「あるあるな質問」に答えるだけで、あなたが、世の中的に「多数派」なのか、「少数派」なのかを、厳しくチェックできるゲーム、それが「どっちでショー」です。\n\nテンポの良いBGMにのって、まるでTV番組に参加しているように遊ぶことができます。ひとりでももちろん、大人数でも楽しめます。多数派なのか、少数派なのか、家族や友達、恋人と一緒にチェックしてみましょう。\n\n■人数別の遊び方\nA. １人でどっちでショー\nあなたは多数派なのか、少数派なのか、ひたすらチェックしていきます。あなたの意外な一面を発見しましょう。\n\nB. みんなでどっちでショー\n２人以上、何人でもプレイできます。参加者は、スマートスピーカーの周りを囲んですわります。時計回りで答えていきましょう。回答者の答えが意外なときは、驚いたり、突っ込んだり、理由を聞いたりして、ゲームを盛り上げましょう。\n\n■問題と回答について\n問題数は現在100問です。随時追加しますのでお楽しみに。また、回答のパーセンテージはユーザーの回答数によって日々変わっていきます。数日後には異なる結果になる可能性もありますので、何度もチェックしてみましょう。"
+  },
+  {
+    "id": "services/a/uid/0000006e9c5bdc27?hl=ja",
+    "name": "満月博士",
+    "author": "",
+    "description": "満月博士は、満月の日がいつか確認できます。\n例えば次の満月の日や、来年の満月の日付が確認できます。\n「1月下旬は満月ある？」や、「秋の満月」などが質問できます。\n\nアップデート: 博士のことや、月までの距離などの質問にも応えられるようになりました。"
+  },
+  {
+    "id": "services/a/uid/000000522f05b60b?hl=ja",
+    "name": "Nature Remo",
+    "author": "Nature, Inc.",
+    "description": "Nature Remoを使って、エアコン、テレビ、照明を操作します。具体的には、以下の操作が可能になります。エアコンの電源ON/OFF、運転モードの変更、設定温度の変更。テレビの電源ON/OFF、チャンネル変更（1-12チャンネルに変更、前後に変更）、音量の調整（上げる、下げる、消す）。照明の電源ON/OFF。"
+  },
+  {
+    "id": "services/a/uid/0000007c83caf303?hl=ja",
+    "name": "おすすめのライトノベル",
+    "author": "恵比寿ボイスプロダクション",
+    "description": "このアプリが起動するとおすすめのライトノベルを聞いてきます。自分のおすすめのライトノベルを教えると、他に何人の人が同じライトノベルをおすすめしているかを教えてくれます。"
+  },
+  {
+    "id": "services/a/uid/0000004d5731f294?hl=ja",
+    "name": "天気",
+    "author": "Google Inc.",
+    "description": "アシスタントに話しかけるだけで、指定した地域の天気や天気予報を聞くことができます。"
+  },
+  {
+    "id": "services/a/uid/00000038e95bb789?hl=ja",
+    "name": "Fun Tricks",
+    "author": "Google Inc.",
+    "description": "ジョークや楽しいトリックで気分転換しましょう。きっと新しい発見があるはずです。"
+  },
+  {
+    "id": "services/a/uid/000000b18c4b6e91?hl=ja",
+    "name": "アシスタントとチャット",
+    "author": "Google Inc.",
+    "description": "アシスタントとチャットして、アシスタントについてもっと詳しく知ることができます。"
+  },
+  {
+    "id": "services/a/uid/00000024b4c9875f?hl=ja",
+    "name": "Google 検索",
+    "author": "Google Inc.",
+    "description": "音声検索を使用して、ハンズフリーで素早くウェブを検索できます。"
+  },
+  {
+    "id": "services/a/uid/0000002c2c90d1e2?hl=ja",
+    "name": "Google マップ",
+    "author": "Google Inc.",
+    "description": "目的地へのルートや、リアルタイムの交通情報を確認できます。"
+  },
+  {
+    "id": "services/a/uid/000000646f8dafcb?hl=ja",
+    "name": "翻訳",
+    "author": "Google Inc.",
+    "description": "翻訳は対応言語の単語やフレーズを翻訳をします。"
+  },
+  {
+    "id": "services/a/uid/000000e3622a1d56?hl=ja",
+    "name": "辞書",
+    "author": "Google Inc.",
+    "description": "言葉の意味や語源を調べることができます。"
+  },
+  {
+    "id": "services/a/uid/0000004b9561b9a7?hl=ja",
+    "name": "絵文字ムービー",
+    "author": "Google Inc.",
+    "description": "絵文字の組み合わせを見て映画のタイトルを当てるトリッキーなチャットゲームです。"
+  },
+  {
+    "id": "services/a/uid/0000003516718522?hl=ja",
+    "name": "計算",
+    "author": "Google Inc.",
+    "description": "複雑な計算を音声で実行できます。"
+  },
+  {
+    "id": "services/a/uid/000000117bfc35be?hl=ja",
+    "name": "今日はどんな日",
+    "author": "Google Inc.",
+    "description": "「今日はどんな日？」と話しかけると、その日の天気、職場までの交通状況、大事な予定、楽しいイベントなどをお知らせします。"
+  },
+  {
+    "id": "services/a/uid/00000085e37e2052?hl=ja",
+    "name": "フライトとホテル",
+    "author": "Google Inc.",
+    "description": "「フライトとホテル」は予約済みのフライトの運行状況、料金の確認、フライトとホテルに関する情報について聞くことができます。"
+  },
+  {
+    "id": "services/a/uid/000000fc4c180338?hl=ja",
+    "name": "絵文字クイズ",
+    "author": "Google Inc.",
+    "description": "奇妙な絵文字の組み合わせを見てパズルを解きましょう。"
+  },
+  {
+    "id": "services/a/uid/0000005cd4fdc7d3?hl=ja",
+    "name": "メッセージ",
+    "author": "Google Inc.",
+    "description": "友だちや家族など、連絡先に登録されている相手に音声だけでメッセージを送信できます。"
+  },
+  {
+    "id": "services/a/uid/0000000d62875c0a?hl=ja",
+    "name": "電話",
+    "author": "Google Inc.",
+    "description": "連絡先、お店、サービスなど、アシスタントに伝えるだけでどこへでも電話がかけられます。"
+  },
+  {
+    "id": "services/a/uid/000000fe52a94d79?hl=ja",
+    "name": "ショッピングリスト",
+    "author": "Google Inc.",
+    "description": "音声操作でアイテムをリストに追加したり削除したりして、後でまとめて購入できます。"
+  },
+  {
+    "id": "services/a/uid/000000177b523fc3?hl=ja",
+    "name": "単位変換",
+    "author": "Google Inc.",
+    "description": "世界中の通貨や単位を変換できます。"
+  },
+  {
+    "id": "services/a/uid/0000005d8a63d90c?hl=ja",
+    "name": "時計",
+    "author": "Google Inc.",
+    "description": "起床時間や薬を飲む時間など、音声だけでアラームの管理ができます。\n\nまた、料理、ゲーム、洗濯などをする際に、タイマーを設定することもできます。"
+  },
+  {
+    "id": "services/a/uid/00000052f28bc172?hl=ja",
+    "name": "リマインダー",
+    "author": "Google Inc.",
+    "description": "タスクのリマインダーを作成すると、希望する時間や場所で通知を受け取ることができます。"
+  },
+  {
+    "id": "services/a/uid/0000008ab916de54?hl=ja",
+    "name": "ニュース",
+    "author": "Google Inc.",
+    "description": "あなたが信頼する提供元が発信する最新のニュースを聞くことができます。お好みのニュース提供元を選択してカスタマイズすることも可能です。"
+  },
+  {
+    "id": "services/a/uid/000000479dfb1490?hl=ja",
+    "name": "スポーツ情報",
+    "author": "Google Inc.",
+    "description": "お気に入りのチームのランキング、スケジュール、スコアなどに関する最新情報をお届けします。"
+  },
+  {
+    "id": "services/a/uid/000000374122fc2d?hl=ja",
+    "name": "WhatsApp",
+    "author": "WhatsApp Inc.",
+    "description": "WhatsApp を使って、音声で簡単にテキスト メッセージや音声メッセージを送信できます。\n\nWhatsApp Messenger アプリをスマートフォンにインストールする必要があります。"
+  },
+  {
+    "id": "services/a/uid/000000ea57b4849c?hl=ja",
+    "name": "Google フォト",
+    "author": "Google Inc.",
+    "description": "撮影場所や被写体で写真の検索ができます。タグ付けは不要です。\n\n探している写真の説明、または撮影日やアルバム名を伝えるだけで Google フォト ライブラリからの検索結果が表示されます。"
+  },
+  {
+    "id": "services/a/uid/0000005b9f4e23a9?hl=ja",
+    "name": "なぞかけ傑作選",
+    "author": "",
+    "description": "クスッと笑えるなぞかけを集めました。あなたもきっと誰かに教えたくなるはずです。是非聞いてみてください。"
+  },
+  {
+    "id": "services/a/uid/000000ac31890b0c?hl=ja",
+    "name": "好きな車",
+    "author": "恵比寿ボイスプロダクション",
+    "description": "このアプリが起動すると好きな車を聞いてきます。自分の好きな車を教えると、他に何人の人が同じ車を好きか教えてくれます。登録されていない車もあります。"
+  },
+  {
+    "id": "services/a/uid/000000382d436ecc?hl=ja",
+    "name": "雨の音",
+    "author": "VoiceCities",
+    "description": "作業に集中できる雨の音です。"
+  },
+  {
+    "id": "services/a/uid/0000002776b0d637?hl=ja",
+    "name": "株",
+    "author": "Google Inc.",
+    "description": "個々の株価や全体的な市場の状況に関する情報を、音声で確認できます。"
+  },
+  {
+    "id": "services/a/uid/0000006d52fcb1fe?hl=ja",
+    "name": "iHome",
+    "author": "iHome",
+    "description": "iHome SmartPlug は、すべてのGoogleアシスタント対応製品で利用可能です。Smart Plug や接続済みの照明、イルミネーション、扇風機、窓用エアコン、ポータブル ヒーターなどの小型電化製品を音声で操作できます。Wi-Fi に対応しているため、USBハブは不要です。"
+  },
+  {
+    "id": "services/a/uid/0000006782ca1e2e?hl=ja",
+    "name": "HomeSeer",
+    "author": "HomeSeer Technologies LLC",
+    "description": "Google Home を使用して音声で HomeSeer システムを操作できます。"
+  },
+  {
+    "id": "services/a/uid/000000387ed437e3?hl=ja",
+    "name": "Awair",
+    "author": "Bitfinder, Inc.",
+    "description": "Google アシスタントを使って、Awair Glow に接続されている製品の電源を直接オンまたはオフにできます。また、Awair Glow がオンになっているか、オフになっているかも確認できます（「OK Google、寝室の空気清浄機 / 加湿器 / 照明 / 扇風機 / ヒーターをつけて / 消して」「OK Google、寝室の空気清浄機の電源は入ってる？」）。"
+  },
+  {
+    "id": "services/a/uid/000000f3d78859f0?hl=ja",
+    "name": "Insignia Connect",
+    "author": "Best Buy, Inc.",
+    "description": "音声だけで家中のデバイスを操作できます。アシスタントに伝えるだけで、照明、扇風機、ポータブル ヒーター、コーヒー メーカー、ホーム オーディオ システムのオン / オフが可能です。"
+  },
+  {
+    "id": "services/a/uid/0000001569caac3d?hl=ja",
+    "name": "Deako",
+    "author": "Deako",
+    "description": "Deako スマート スイッチをあらゆる Google Home 対応デバイスからオン、オフ、または調光することができます。"
+  },
+  {
+    "id": "services/a/uid/000000a443c1ab97?hl=ja",
+    "name": "Hackajoe Labs",
+    "author": "Hook Smart Home",
+    "description": "Google アシスタントを使って Hook デバイスを操作できます。「OK Google」と話しかけ、Hook アプリに登録したデバイス名に続いて「オンにして」または「オフにして」と言うだけです。"
+  },
+  {
+    "id": "services/a/uid/0000003bd0c56d93?hl=ja",
+    "name": "UPB Bridge",
+    "author": "Universal Devices, Inc.",
+    "description": "Voice UPB Bridge は、自宅に設置した UPB Voice Bridge ハードウェア用のインターフェースです。照明や電化製品の操作、照明のオンオフなどが可能です。"
+  },
+  {
+    "id": "services/a/uid/00000014f2828b69?hl=ja",
+    "name": "Samsung Artik Cloud",
+    "author": "Samsung Artik Cloud",
+    "description": "Samsung ARTIK Cloud を使用すると、ARTIK Cloud に接続したデバイスを音声で操作できるようになります（http://artik.cloud）。"
+  },
+  {
+    "id": "services/a/uid/0000001291ca82bf?hl=ja",
+    "name": "TP-Link",
+    "author": "TP-LINK Technologies Co., Ltd.",
+    "description": "照明、電球、照明のスイッチ、中継器など、TP-Link 社のあらゆる Kasa Smart Home 製品を音声で操作できます。Google アシスタントに話しかけるだけで、電子機器、家電製品、照明などをオンまたはオフにしたり、気分に合わせて照明の色を変えたりすることができます。"
+  },
+  {
+    "id": "services/a/uid/00000042fb8660de?hl=ja",
+    "name": "Iris",
+    "author": "Lower's Companies Inc.",
+    "description": "Google アシスタントを使って、Iris スマートホームを操作できます。Iris by Lowe's モバイルアプリをダウンロードして、Iris アカウントを作成してください。多くの場合、Iris Smart Hub が必要となります。Iris について詳しくは、IrisByLowes.com をご覧ください。"
+  },
+  {
+    "id": "services/a/uid/00000057d6b3f556?hl=ja",
+    "name": "Leviton",
+    "author": "Leviton",
+    "description": "照明やプラグイン機器（テーブルランプ、扇風機など）を、いつでも音声で調節できます。壁面埋め込み型の調光器やスイッチ、プラグイン調光器、プラグイン コンセントなど、すべての Leviton Decora Smart with Wi-Fi Technology 製品に対応しています。天井の照明を暗くしたり、扇風機をつけたり、さまざまな操作が可能です。必要なのは Wi-Fi、スマート調光器、Google アシスタントだけ。ハブやブリッジなどのハードウェアを追加する必要はありません。"
+  },
+  {
+    "id": "services/a/uid/000000b3331ef7ed?hl=ja",
+    "name": "Nanoleaf",
+    "author": "Nanoleaf Smarter Series",
+    "description": "照明器具をカスタマイズして、自宅を演出しましょう。\n\nAndroid スマートフォンまたは Google Home から Google アシスタントを使用して Nanoleaf Smarter シリーズの照明器具を音声で操作できます。\n\nNanoleaf Aurora の操作にはアプリで作成した名前を使用し、出力、明るさ、色をコントロールできます。\n\nNanoleaf Smarter シリーズアプリに関する詳細については、 https://nanoleaf.me/app をご覧ください。\n\nこの操作は、Nanoleaf Smarter シリーズの照明器具をお持ちのユーザーのみを対象としています。\n\nご不明な点については、Nanoleaf サポート（https://helpdesk.nanoleaf.me/）をご覧ください。"
+  },
+  {
+    "id": "services/a/uid/00000074da1c2f7a?hl=ja",
+    "name": "LIFX",
+    "author": "LiFi Labs Inc.",
+    "description": "家中の照明を音声で簡単に操作できます。Google アシスタントに「OK Google」と話しかけるだけで、スイッチの切替え、明るさの調整、色の変更、カスタムグループの操作などを簡単に行えます。"
+  },
+  {
+    "id": "services/a/uid/00000032526c082c?hl=ja",
+    "name": "iDevices",
+    "author": "iDevices",
+    "description": "iDevices サービスを使用すると、Google アシスタントに話しかけるだけで iDevices スマートホーム製品を操作できます。iDevices 製品は、迅速かつ簡単な操作を実現するダイレクト アクションに対応しています。Google Home アプリで寝室やキッチンなどの部屋を作成し、ホーム オートメーションに必要な製品を追加します。"
+  },
+  {
+    "id": "services/a/uid/000000fb73edd227?hl=ja",
+    "name": "Emberlight",
+    "author": "emberlight",
+    "description": "Google アシスタンとemberlight を使って音声で照明を操作できます。気分に合わせて照明やグループ化された照明をつけたり消したり、または調光レベルを調整したりできます。"
+  },
+  {
+    "id": "services/a/uid/000000a6d9c1b8a2?hl=ja",
+    "name": "Lutron Caseta Wireless",
+    "author": "Lutron Electronics Co., Inc.",
+    "description": "Lutron 社が提供する Caséta があれば、家中の照明を好きな場所から操作できます。電球の交換は必要はありません。550 種類以上の電球に対応する Caséta システムなら、手頃な価格でスマート照明へのアップグレードが可能です。"
+  },
+  {
+    "id": "services/a/uid/00000042274b91de?hl=ja",
+    "name": "Philips Hue",
+    "author": "Philips Hue",
+    "description": "家中の照明を音声だけで簡単に操作できます。照明のオン、オフ、調光、色の変更など、すべてアシスタントにお任せください。"
+  },
+  {
+    "id": "services/a/uid/0000005269c3aa64?hl=ja",
+    "name": "Sengled",
+    "author": "Sengled",
+    "description": "家の用事はいろいろあって、なかなか電球のことまでは気が回りません。Sengled Element Plus と Sengled Element Classic は、Google アシスタントと連携して照明のオートメーションを実現し、快適な暮らしを提供します。例えば、会社に遅刻しそうなときは「OK Google、照明を全部消して」、寝る前に本を読むときは「OK Google、寝室の照明を 35% に下げて」、ホーム パーティーを開くときは「OK Google、リビングの照明をソフトホワイトに変えて」と言うだけ。照明のことはすべて、Element と Google アシスタントにお任せください。"
+  },
+  {
+    "id": "services/a/uid/000000c99af10a3b?hl=ja",
+    "name": "Plum",
+    "author": "Plum",
+    "description": "Plum Lightpad があれば、Google アシスタントを使って自宅の照明やグループ化された照明をつけたり消したりできます。また、Google アシスタントは Plum Lightpad に特定の調光レベルに設定するよう伝えたり、照明またはグループ化された照明が現在点灯しているか消灯しているかの質問に答えたりすることもできます。"
+  },
+  {
+    "id": "services/a/uid/00000050c05ee72e?hl=ja",
+    "name": "WeMo",
+    "author": "Belkin International",
+    "description": "WeＭo とアシスタントを使用すれば、手を使わず音声だけで照明や家電製品または部屋全体のデバイスを操作できます。"
+  },
+  {
+    "id": "services/a/uid/00000081986a7692?hl=ja",
+    "name": "Mobilinc",
+    "author": "MobiLinc",
+    "description": "MobiLinc は、Universal Devices の ISY ホーム オートメーション コントローラーを操作します。これにより、Google アシスタントを使って照明、プラグ、プログラムなど、さまざまなデバイスなどを操作できます。"
+  },
+  {
+    "id": "services/a/uid/00000027ebebb233?hl=ja",
+    "name": "SmartThings",
+    "author": "Samsung SmartThings",
+    "description": "SmartThings と Google アシスタントを使用すれば、接続したデバイスを音声で操作できます。"
+  },
+  {
+    "id": "services/a/uid/0000007fa6c9ecdb?hl=ja",
+    "name": "au HOME",
+    "author": "KDDI株式会社",
+    "description": "au HOMEの赤外線リモコン01に登録した照明、エアコンをGoogleHomeから声で操作して、一歩先ゆく未来を体験できます。"
+  },
+  {
+    "id": "services/a/uid/000000dadf35b846?hl=ja",
+    "name": "インテリジェントホーム",
+    "author": "Connected Design株式会社",
+    "description": "インテリジェントホームアプリを利用することで電気やエアコンなどのご契約のインテリジェントホームのデバイスを音声で簡単にコントロールすることができます。\n\nインテリジェントホームはカメラやセンサーを使ったお子さまの帰宅確認やペットの見守り、鍵の施解錠、エアコンや照明のオンオフなど、どこからでもお家を自在にコントロールできるスマートホームサービスです。\n\n現在インテリジェントホームアプリでサポートしている操作は以下の通りです。\n・スマートライト(調光機能なし) 操作:オン/オフ\n・スマートライト(調光機能あり) 操作:オン/オフ/調光\n・ライト(家電コントローラー経由) 操作:オン/オフ\n・エアコン(家電コントローラー経由) 操作:オン/オフ/温度指定/モード変更"
+  },
+  {
+    "id": "services/a/uid/000000f929e92fe3?hl=ja",
+    "name": "宇宙おじさん",
+    "author": "",
+    "description": "宇宙にはおもしろい不思議なことがいっぱいじゃ。\n例え話や、おじさんの行き過ぎた妄想をまじえながら優しく教えようかのぉ。（お話はまだ少ないのじゃが、ちょっとずつ増やしていくのじゃじゃ）\n※17/12/15 お話を追加しました、ちょっと声変わりしたのじゃ\n※17/12/05 お話を追加しました"
+  },
+  {
+    "id": "services/a/uid/000000ee7fb32eaf?hl=ja",
+    "name": "YouTube Music",
+    "author": "Google Inc.",
+    "description": "\"YouTube Music があれば、膨大な数の曲を視聴できます。\n\nGoogle Home で YouTube Music を使用するには、YouTube Red のメンバーシップが必要です。まずは無料でお試しいただけます。\""
+  },
+  {
+    "id": "services/a/uid/00000040c43310fa?hl=ja",
+    "name": "Spotify",
+    "author": "Spotify Ltd.",
+    "description": "Spotify があれば、いつでもお気に入りのアーティストやアルバムを聞いたり、新しい音楽を発見したり、既存のプレイリストを楽しんだりすることができます。Google Home で Spotify を再生するには、Spotify Premium への登録が必要です。"
+  },
+  {
+    "id": "services/a/uid/00000009115831b8?hl=ja",
+    "name": "浦島太郎物語",
+    "author": "恵比寿ボイスプロダクション",
+    "description": "浦島太郎の物語を読んでくれます"
+  },
+  {
+    "id": "services/a/uid/000000bdc0e46541?hl=ja",
+    "name": "おすすめのハンバーガー",
+    "author": "恵比寿ボイスプロダクション",
+    "description": "このアプリが起動するとおすすめのハンバーガーを聞いてきます。自分のおすすめのハンバーガーを教えると、他に何人の人が同じハンバーガーをおすすめしているかを教えてくれます。"
+  },
+  {
+    "id": "services/a/uid/000000a4eacf80c5?hl=ja",
+    "name": "一寸法師物語",
+    "author": "恵比寿ボイスプロダクション",
+    "description": "一寸法師の物語を読んでくれます"
+  },
+  {
+    "id": "services/a/uid/000000a4618d362f?hl=ja",
+    "name": "Gmail",
+    "author": "Google Inc.",
+    "description": "音声操作だけで、連絡先に登録した相手にメールを送信できます。"
+  },
+  {
+    "id": "services/a/uid/0000008619698301?hl=ja",
+    "name": "Viber",
+    "author": "Viber Media S.à.r.l.",
+    "description": "\"Viberは音声でテキストメッセージを送信します。\n\nViber はインターネットで世界中の人々とつながる無料のメッセンジャーです。\n\nスマートフォンにアプリをダウロードする必要があります。\""
+  },
+  {
+    "id": "services/a/uid/000000ce25303539?hl=ja",
+    "name": "10秒カウントダウン",
+    "author": "恵比寿ボイスプロダクション",
+    "description": "このアプリは10秒を計測してくれるアプリです。\nこのアプリにつなぐと、すぐにカウントダウンを開始します。\nカウントダウンが終わるとアプリは終了します。\nカウントダウンは正確な時間と比較して誤差がある場合があります。"
+  },
+  {
+    "id": "services/a/uid/00000066f9e5b3a6?hl=ja",
+    "name": "ルンバ",
+    "author": "iRobot",
+    "description": "床をキレイにしたいなら、話しかけるだけ。全てのWi-Fi®対応のロボット掃除機 Roomba®はGoogle Assistantでコントロールできます。\n\nまずiRobotアカウントを作成し、Wi-Fi®対応Roomba® をお持ちのiOSまたはAndroid機器からiRobot HOMEアプリに登録してください。\n\nこのスキルを使用するには、上記の「有効にする」ボタンをクリックした後、iRobotアカウントでサインインしてロボットをリンクさせます。iRobotアカウントはiRobot HOMEアプリから作成いただけます。"
+  },
+  {
+    "id": "services/a/uid/000000391e0e4f8c?hl=ja",
+    "name": "桃太郎物語",
+    "author": "恵比寿ボイスプロダクション",
+    "description": "桃太郎の物語を読んでくれます"
+  },
+  {
+    "id": "services/a/uid/00000047f5a379ff?hl=ja",
+    "name": "地理クイズ",
+    "author": "Google Inc.",
+    "description": "制限時間内に 10 個のクイズに答えて、国や地域に関する知識を試しましょう。"
+  },
+  {
+    "id": "services/a/uid/000000753d29f8a6?hl=ja",
+    "name": "さるかに合戦物語",
+    "author": "恵比寿ボイスプロダクション",
+    "description": "さるかに合戦の物語を読んでくれます"
+  },
+  {
+    "id": "services/a/uid/000000e24f4f2204?hl=ja",
+    "name": "日本酒データベース",
+    "author": "Frontpoint Inc.",
+    "description": "日本酒にまつわるクイズを出題します。"
+  },
+  {
+    "id": "services/a/uid/0000004ef47cb7b6?hl=ja",
+    "name": "生麦生米生卵",
+    "author": "アックスライトドットコム",
+    "description": "このアプリを起動すると「生麦生米生卵」などの日本語で代表的な早口言葉をいくつかしゃべってくれます。"
+  },
+  {
+    "id": "services/a/uid/000000da09896c84?hl=ja",
+    "name": "2分カウントダウン",
+    "author": "恵比寿ボイスプロダクション",
+    "description": "このアプリは2分を計測してくれるアプリです。\nこのアプリにつなぐと、すぐにカウントダウンを開始します。\nカウントダウンが終わるとアプリは終了します。\nカウントダウンは正確な時間と比較して誤差がある場合があります。"
+  },
+  {
+    "id": "services/a/uid/000000c1d99e5f63?hl=ja",
+    "name": "ソリティア",
+    "author": "Google Inc.",
+    "description": "1 人で楽しめる人気のカードゲームです。集中力が鍵を握ります。"
+  },
+  {
+    "id": "services/a/uid/0000004fee8075fe?hl=ja",
+    "name": "好きな色",
+    "author": "恵比寿ボイスプロダクション",
+    "description": "このアプリが起動すると好きな色を聞いてきます。自分の好きな色を教えると、他に何人の人が同じ色を好きか教えてくれます。"
+  },
+  {
+    "id": "services/a/uid/000000dee34cefd8?hl=ja",
+    "name": "英単語クイズ",
+    "author": "Google Inc.",
+    "description": "制限時間内に素早くクイズに答えて、英語の語彙力を試してみよう。"
+  },
+  {
+    "id": "services/a/uid/000000acf7a98e39?hl=ja",
+    "name": "レベルを上げて",
+    "author": "tonosamart",
+    "description": "レベルアップした気持ちになれます。なれない時もあります。"
+  },
+  {
+    "id": "services/a/uid/000000e80ed04cf4?hl=ja",
+    "name": "アキネーター",
+    "author": "Elokence",
+    "description": "アキネーターは、いくつかの質問をするだけで君の心を読んで、想像しているキャラクターを当ててしまいます。有名な人物やキャラクターを思い浮かべてください。アキネーターがそれが誰かを当ててみせます。魔人アキネーターに挑戦する勇気があるかな?"
+  },
+  {
+    "id": "services/a/uid/0000004fa8584c38?hl=ja",
+    "name": "先生教えて",
+    "author": "とのさまラボ",
+    "description": "先生教えて では、先生に学校のことを教えてもらえます。\nおもに小学１年生用です"
+  },
+  {
+    "id": "services/a/uid/000000d38171dfe8?hl=ja",
+    "name": "みりんみりん",
+    "author": "tocie.jp",
+    "description": "みりんを10回言ってクイズに答えてくれYO!!\n「みりん」を早く言い過ぎるとうまく聞き取れない時あるからゆっくり言ってくれYO!!"
+  },
+  {
+    "id": "services/a/uid/0000006fcba3d4b9?hl=ja",
+    "name": "1分カウントダウン",
+    "author": "恵比寿ボイスプロダクション",
+    "description": "このアプリは1分すなわち60秒を計測してくれるアプリです。\nこのアプリにつなぐと、すぐにカウントダウンを開始します。\nカウントダウンが終わるとアプリは終了します。\nカウントダウンは正確な時間と比較して誤差がある場合があります。"
+  },
+  {
+    "id": "services/a/uid/000000a67d5eb54e?hl=ja",
+    "name": "YouTube",
+    "author": "Google Inc.",
+    "description": "\"YouTube で、世界中のユーザーが投稿した動画を視聴しましょう。\n\nYouTube アプリがあればプラットフォーム上のすべての動画をお楽しみいただけます。話題の最新動画をチェックすることも、ブラウジングしたり検索したりしながら動画を再生することも可能です。\n\nおすすめ動画のチェック、お気に入りのチャンネルの登録、再生リストの作成、動画の編集やアップロード、コメントの入力、動画の共有、テレビへのキャストなど、さまざまな機能をお楽しみください。\""
+  },
+  {
+    "id": "services/a/uid/0000000a4149986a?hl=ja",
+    "name": "プチリリ",
+    "author": "株式会社シンクパワー",
+    "description": "歌詞の一部はわかるのに、曲名が思い出せない…\nそんなあなたにプチリリ！\n歌詞の一部をつぶやいてくれれば、あなたの代わりにその曲探します！"
+  },
+  {
+    "id": "services/a/uid/0000006450b092fc?hl=ja",
+    "name": "お願い サンタ！",
+    "author": "KANTETSU WORKS",
+    "description": "[ VoiceApp Lab Presents ]\nもうすぐクリスマス。お子さんがサンタさんに何をお願いしているかご存知ですか？このアプリは、こっそりとお子さんのリクエストをリサーチできるアプリです。お子さんがサンタさんにリクエストしたものを、後でこっそりと確認できます。複数のリクエストにも対応していますので、大家族でも大丈夫です。\n\n【秘密のお父さんモード】\n合言葉「雨は〜に」（by 山下達郎 クリスマス・イブの冒頭）と言うと、お父さんモードに入り、リクエストを確認できます。お子さんが寝静まったころにどうぞ。\n\n注意）リクエストをリサーチするアプリです。プレゼントは届きません。"
+  },
+  {
+    "id": "services/a/uid/000000f8563220a4?hl=ja",
+    "name": "愛犬マックス",
+    "author": "KANTETSU WORKS",
+    "description": "[ VoiceApp Lab Presents ]\nマックスはあなたの愛犬です。あなたの言葉に反応して、甘えたり、興奮したり、ときには吠えたりします。お手やおすわりなど、上手にしつけてみましょう。近くに怪しい人がいたら「吠えろ」言ってください。頼もしい番犬になってくれます。吠えると喉がかわくので、時々お水をあげてくださいね。\n\n↓気に入ったら★★★★★をお願いします！"
+  },
+  {
+    "id": "services/a/uid/000000700f7004ae?hl=ja",
+    "name": "忍者 トリビア",
+    "author": "とのさまラボ",
+    "description": "忍者 トリビアでは、忍者の秘密を知ることが出来ます。誰にも言わないでくださいね。"
+  },
+  {
+    "id": "services/a/uid/00000005da18b19c?hl=ja",
+    "name": "作業トリガー",
+    "author": "Castroom Inc.",
+    "description": "「作業を始めるまでがキツい」という人のためのアプリです。音声の指示に従って動くだけで、スムーズに作業を開始することができます。「使い方」で、詳しい利用方法を確認できます。"
+  },
+  {
+    "id": "services/a/uid/00000038666e9bb4?hl=ja",
+    "name": "おすすめコマンド",
+    "author": "スパゲッティゲッティスパゲッティ",
+    "description": "Google Homeのおすすめコマンドを紹介します。\nあなたの知らない使い方がまだまだあるかも知れません。"
+  },
+  {
+    "id": "services/a/uid/000000e3ae12e4a2?hl=ja",
+    "name": "愚痴聞いてタンバリン",
+    "author": "KB-Fiber",
+    "description": "ユーザーの愚痴を受け会話するアプリです！\n\n言いたくても言えないことが溜まっていませんか？イライラやモヤモヤをそのままにしておくとストレスになります。でも誰かに話すとそれだけでスッキリするかも知れません。\n\nこのアプリは、日常の愚痴や誰にも言えない本音まで思いっ切り話すことができるアプリです。愚痴を入力するとキャラクターが受け答えを返してくれます。\n\nあれこれたくさん話してみてください。不思議と気持ちが晴れてくるかもしれません。\nまた愚痴以外を話しても大丈夫です！※ただし 100 % の精度はありません。\n\n日頃の愚痴、ストレス、不満、心配などや、誰にも言えない本音を\n本アプリに話してストレス発散、気分転換しましょう！\n\n\n※終わるときは「バイバイ」「さようなら」「またね」「じゃあね」「お休み」「終わり」などで終了できます。\n\n※別途、３人のキャラとグループチャットができるスマホアプリをアプリストアからインストールできます。「愚痴」で検索\n\n※高評価を頂いたユーザーの皆様ありがとうございます！楽しんで頂けて嬉しいです！今後とも徐々にですが受け答えの精度を上げていきます。よろしくお願い致します。"
+  },
+  {
+    "id": "services/a/uid/00000043bc713f5e?hl=ja",
+    "name": "日本史語呂合わせ",
+    "author": "WHITE Inc.",
+    "description": "日本史の年号語呂合わせの一部を聞いて、残りを答えるゲームです。\n\n昔覚えた語呂合わせ、今どれくらい覚えているか試してみませんか？"
+  },
+  {
+    "id": "services/a/uid/00000040284b69a4?hl=ja",
+    "name": "虫の漢字",
+    "author": "ohanashi.app",
+    "description": "虫の漢字の書き方を教えてくれます。\n例えば、蟻は「虫へんに、義理の義と書きます」というふうに教えてくれます。"
+  },
+  {
+    "id": "services/a/uid/00000029d05a2eb7?hl=ja",
+    "name": "パックマン",
+    "author": "Google Inc.",
+    "description": "モンスターの追跡を切り抜けながらドットを食べる、クラシックな Doodle アーケード ゲームです。"
+  },
+  {
+    "id": "services/a/uid/00000064c8a1a763?hl=ja",
+    "name": "NextPlus",
+    "author": "info@google.com",
+    "description": "NextPlus を使って音声で簡単にテキスト メッセージを送信します。\n\nNextPlus は無料メッセージ サービスを提供するメッセージ アプリです。\n\nスマートフォンにアプリをダウロードする必要があります。"
+  },
+  {
+    "id": "services/a/uid/00000054af7ecd49?hl=ja",
+    "name": "ビットコイン豆知識",
+    "author": "AkiyoshiOkano",
+    "description": "ビットコインにまつわる豆知識を聞くことができます。ビットコインを構成する技術や、誕生の歴史などを話します。"
+  },
+  {
+    "id": "services/a/uid/000000243b22d34f?hl=ja",
+    "name": "ダジャレ師匠",
+    "author": "Akiyoshi Okano",
+    "description": "ダジャレを聞いて遊べます。家族や友達、幅広くご使用いただけます。"
+  },
+  {
+    "id": "services/a/uid/0000005790d0c58c?hl=ja",
+    "name": "なりきり独裁者",
+    "author": "",
+    "description": "[ VoiceApp Lab Presents ]\nあなたは独裁者です。あなたの演説を聞きに、数万もの国民がこの場に集まりました。さあ、彼らに声をかけてやってください。悪口はいけませんよ。ブーイングされないように気をつけて。上手にツッコむとウケるかもしれませんよ。プレゼンの練習や、日頃のストレス解消にどうぞ。"
+  },
+  {
+    "id": "services/a/uid/000000122de188e9?hl=ja",
+    "name": "キーワードニュース",
+    "author": "KANTETSU WORKS",
+    "description": "[ VoiceApp Lab Presents ]\n好きなキーワードを指定すると、関連したニュースのヘッドラインをサクサクと聞くことができます。特定ワードの最新動向を素早くつかむのに適しています。\n\n【オススメのキーワード】\n・ローカルニュースの把握に：「東京」「京都」「六本木」\n・ガジェットの最新動向に：「スマホアプリ」「AIスピーカー」\n・趣味の情報収集に：「クルマ」「海外旅行」「仮想通貨」\n・自己実現の参考に：「ダイエット」「転職」「恋愛」\n\nヘッドラインは各Webサイトが配信するRSSより見出し情報のみ引用しています。詳しい内容は、配信元のサイトでご覧ください。"
+  },
+  {
+    "id": "services/a/uid/00000032089a1be0?hl=ja",
+    "name": "ロボトリビア",
+    "author": "tonosamalabo",
+    "description": "「生きていく上で何の役にも立たない無駄なロボットの知識、しかし、つい人に教えたくなってしまうようなトリビア」を紹介します！"
+  },
+  {
+    "id": "services/a/uid/000000379769205d?hl=ja",
+    "name": "アリバイサウンド",
+    "author": "KANTETSU WORKS",
+    "description": "[ VoiceApp Lab Presents ]\nアリバイサウンドは、あなたのアリバイ用の効果音を流します。浜辺、港、山奥、街中、電車から、あなたのアリバイにふさわしいサウンドを選んでご利用ください。"
+  },
+  {
+    "id": "services/a/uid/0000006cf82c4c28?hl=ja",
+    "name": "Telegram",
+    "author": "Telegram Messenger LLP",
+    "description": "\"Telegram を使って音声で簡単にテキスト メッセージを送信できます。\n\nTelegram は通信速度とセキュリティを重視したメッセージ アプリです。\n\nスマートフォンにアプリをダウロードする必要があります。\""
+  },
+  {
+    "id": "services/a/uid/0000002f76e40e77?hl=ja",
+    "name": "好きな政党",
+    "author": "恵比寿ボイスプロダクション",
+    "description": "このアプリが起動すると好きな政党を聞いてきます。自分の好きな政党を教えると、他に何人の人が同じ政党を好きか教えてくれます。"
+  },
+  {
+    "id": "services/a/uid/00000001609b717b?hl=ja",
+    "name": "早口 マスター",
+    "author": "がおまるラボ",
+    "description": "言った言葉を何でも早口言葉で返します\n好きな言葉を言ってください。終了する場合は「終了」と言ってください。\n\n例えば「安室奈美恵」と言うと、超高速で「安室奈美恵」と言い返します。"
+  },
+  {
+    "id": "services/a/uid/000000444a699599?hl=ja",
+    "name": "ダジャレおじさん",
+    "author": "Pepo",
+    "description": "ダジャレ大好きなおじさんからダジャレクイズです！\n\nおじさんが言う言葉のどこでダジャレがかかっているか、君にわかるかな！？\n\n言葉を覚えたてのお子さんにどうぞ！\n\n----------------------------------------------------\n■遊び方\nダジャレおじさんがダジャレの問題を5問出題します。\n出題されたら、ダジャレがかかっている部分を答えてください。\n\n例えば「アルミ缶の上にあるみかん」とおじさんが行った場合は「アルミ缶」と答えてください。\n\n問題がうまく聞き取れなかったり聴き逃した場合は「もう一度」と言うとおじさんがもう一度問題を言い直してくれます。\n\nまた、いつでも「ストップ」「バイバイ」などを言うと中断することができます。"
+  },
+  {
+    "id": "services/a/uid/000000ecc5ab25c2?hl=ja",
+    "name": "江戸っ子タイム",
+    "author": "June YAMAMOTO",
+    "description": "時刻を江戸時代風に答えてくれたり、小噺をしてくれます。"
+  },
+  {
+    "id": "services/a/uid/0000006819494a74?hl=ja",
+    "name": "インターバル計測",
+    "author": "いかいくらうに工房",
+    "description": "インターバル計測では、本アプリを前回呼び出した時間と今の時間の差を分単位でお知らせします。(利用ユーザー数が多い場合、利用制限することがあります)"
+  },
+  {
+    "id": "services/a/uid/000000ce35b04b36?hl=ja",
+    "name": "絶対音感オーケストラ",
+    "author": "WHITE Inc.",
+    "description": "流れた音がどの音階なのか、当てるゲームです。\n絶対音感がある人もない人も、難易度に合わせて楽しく遊ぶことができます。"
+  },
+  {
+    "id": "services/a/uid/000000475dc06533?hl=ja",
+    "name": "花漢字",
+    "author": "ohanashi.app",
+    "description": "花の漢字の読み方を教えてくれます。\n例えば、朝顔の漢字が知りたい場合は、「アサガオ」と問いかけると\n「アサガオは、朝に、顔と書きます。」と回答してくれます。"
+  },
+  {
+    "id": "services/a/uid/000000c1b62a6cb4?hl=ja",
+    "name": "アメーバ",
+    "author": "CyberAgent Inc.",
+    "description": "アメーバブログを開設している芸能人の情報をお届けします。"
+  },
+  {
+    "id": "services/a/uid/000000530c94e18c?hl=ja",
+    "name": "楽天レシピ",
+    "author": "Rakuten,Inc.",
+    "description": "主婦のアイディアが詰まった100万品以上のレシピから、厳選した人気レシピを提案。\n\nあなたのマンネリや悩みを解決できるよう、人気の料理や、みんながいま作っている料理、管理栄養士の献立提案で、サポートします。\n\n気に入ったレシピは、メールでレシピを送るか、楽天レシピのウェブサイトやスマートフォンアプリで、レシピを確認しましょう。\n\n＜食材から料理を考えたい場合＞\n「食材」と言ってください\n最大3つまでの食材を指定可能です\n\n＜献立から料理を考えたい場合＞\n「献立」と言ってください\n今の気分に合うジャンルから献立を提案します\n\n＜他の家庭がつくっている料理から考えたい場合＞\n「となりのごはん」と言ってください"
+  },
+  {
+    "id": "services/a/uid/00000001d96ac941?hl=ja",
+    "name": "もういいかい まだだよ",
+    "author": "とのさまラボ",
+    "description": "もういいかい まだだよでは、かくれんぼの練習をすることが出来ます。「もういいかい」で、目をつぶって「もういいよ」で、目を開けてください。"
+  },
+  {
+    "id": "services/a/uid/0000009d44397c75?hl=ja",
+    "name": "ホットペッパーグルメ",
+    "author": "Recruit Holdings Co. Ltd.",
+    "description": "ご希望のエリア、行きたいお店のジャンル（焼肉、カフェ等）をお伝えください。おすすめの飲食店をご提案します。"
+  },
+  {
+    "id": "services/a/uid/00000084776efe5e?hl=ja",
+    "name": "世界のあいさつ",
+    "author": "tocie.jp",
+    "description": "このアプリはランダムで世界の「こんにちは」を返します。\n知ってる「こんにちは」あるかな？"
+  },
+  {
+    "id": "services/a/uid/000000a47f58ff09?hl=ja",
+    "name": "魚の漢字",
+    "author": "ohanashi.app",
+    "description": "魚の漢字では、魚の漢字の書き方を解説します。\n例えば、マグロは、「魚へんに、有利のユウ」と教えてくれます。"
+  },
+  {
+    "id": "services/a/uid/0000007a92874042?hl=ja",
+    "name": "Best Teacher",
+    "author": "株式会社ベストティーチャー",
+    "description": "オンライン英会話スクール「ベストティーチャー」から生まれた英語リスニング対策アプリがGoogle Homeに登場！\n\nWeb版ベストティーチャーのレッスン内で作成された会話文を元にしたリスニング教材を聞いて、その理解度を確かめるために出題される四択問題に挑戦してみましょう。"
+  },
+  {
+    "id": "services/a/uid/000000c79cd8901d?hl=ja",
+    "name": "クロマチックチューナー",
+    "author": "田中みそ",
+    "description": "C4からB4までの正弦波を4秒間鳴らします。\n音を鳴らすには「Cの音」や「レの♭鳴らして」と話しかけて下さい。\n音名は英・米式（CDEFGAB）とイタリア式（ドミレファソラシ）に対応しています。\nアプリを終了する際は「終了」「クロマチックチューナーを終了」「チューナーを終了して」のように話しかけて下さい。"
+  },
+  {
+    "id": "services/a/uid/000000a8e19dd851?hl=ja",
+    "name": "ピザピザピザ",
+    "author": "",
+    "description": "ピザって10回言ったあとに、あなたはちゃんと質問に答えられるでしょうか。"
+  },
+  {
+    "id": "services/a/uid/000000b8d540c1ae?hl=ja",
+    "name": "ビットコイン価格予測",
+    "author": "kilojapan",
+    "description": "AutoBC はビットコイン価格が今後上昇するか予測します\nhttps://abc.kilojapan.com/ の情報をアシスタントが回答します"
+  },
+  {
+    "id": "services/a/uid/00000069d9550f4f?hl=ja",
+    "name": "運命数",
+    "author": "がおまるラボ",
+    "description": "あなたの生年月日から運命数を知ることが出来ます。\n運命数とは生年月日によって算出される、持って生まれた数字のことをいいます。\nカバラ数秘術ともいわれ、生まれ持った性格や性質、潜在能力を見ることができるのです。\n\nまずは、占いたい生年月日を西暦で言ってください。\n終了する場合は「終了」と言ってください。"
+  },
+  {
+    "id": "services/a/uid/0000008eb182c813?hl=ja",
+    "name": "天の神様",
+    "author": "chibi929",
+    "description": "どっちにするか迷ったとき、神様が選んでくれます。"
+  },
+  {
+    "id": "services/a/uid/0000002c6de153ce?hl=ja",
+    "name": "おかずくん",
+    "author": "Akio Kanno",
+    "description": "「おかずくん」では、今晩のおかずとなる品を3品提案してくれます。おかずくんに食べたいジャンルを教えてください。\n\n現在対応しているジャンル\n　・魚料理\n　・肉料理\n　・中華\n　・和食\n\n使い方\n　1. 「おかずくんにつないで」と話しかける。\n　2. 「日本食」などの食べたいジャンルを話す。\n\n※ おかずくんのメニューレパートリーは不定期でアップデートしていきます。"
+  },
+  {
+    "id": "services/a/uid/000000f34d114f90?hl=ja",
+    "name": "しりとりマスター",
+    "author": "Fun Soft",
+    "description": "音声で楽しめる簡単な「しりとり」ゲームです。\n「しりとりしましょう」からはじまる"
+  },
+  {
+    "id": "services/a/uid/0000007621bbc93f?hl=ja",
+    "name": "外為どっとコム",
+    "author": "株式会社外為どっとコム",
+    "description": "1)為替レート応答\n「米ドル/円」など、20通貨ペアの為替レートをお伝えします。\n2)重要指標\n本日の発表指標と発表時間をお伝えします。"
+  },
+  {
+    "id": "services/a/uid/000000d7c8f39e90?hl=ja",
+    "name": "鸚鵡返しくん",
+    "author": "",
+    "description": "[ VoiceApp Lab Presents ]\nデバイスがあなたの声をきちんと聞き取っているか不安になりませんか？おうむ返しくんは、そんな時に使うシンプルなツールです。あなたが言ったことをそのまま「おうむ返し」しますので、確認してみてくださいね。\n\n注意）おうむだからって「王蟲の怒りは…」などとは、決して言わないでください。恐ろしいことになりますので。"
+  },
+  {
+    "id": "services/a/uid/00000080bb0e4b5e?hl=ja",
+    "name": "スキルサーチ",
+    "author": "株式会社プラスウイング",
+    "description": "スキルサーチでは、Googleアシスタントアプリの検索ができます。\n呼び出し方も教えてくれるので、どんな使い方ができるかを調べてGoogle Homeを便利に使いこなしましょう。\n\n「ゲーム」、「仮想通貨」など、キーワードでGoogle アシスタントアプリが簡単に検索できます。\n\n「ランダム」と話しかけると、数あるアプリの中から１つ、呼び出し方を教えてくれくれます。"
+  },
+  {
+    "id": "services/a/uid/0000005dd445f3ac?hl=ja",
+    "name": "仮想通貨ポートフォリオ",
+    "author": "Y.Arimitsu",
+    "description": "仮想通貨ポートフォリオでは仮想通貨のレート・資産評価額の確認が可能です。\nレートを確認するには「ビットコインの値段を教えて」のように話しかけてください。\nコイン所持数の設定は「ビットコインの所持数を1.234に変更」のように話しかけてください。コイン所持数を設定しておくと、「総資産を教えて」のように話しかけると所持している全コインの評価額合計を読み上げます。\n\n対応通貨はBitcoin, Ethereum, Ethereum Classic, Lisk, Factom, Monero, Augur, Ripple, Zcash, NEM, Litecoin, Dash, Bitcoin Cash, Mona です。"
+  },
+  {
+    "id": "services/a/uid/000000079c31f1a1?hl=ja",
+    "name": "Coin Price",
+    "author": "pluswing",
+    "description": "こんな風に聞いてください。\n\n- ビットコインはいくら？\n- 50ビットコインの価格は？\n- 30イーサリアムの値段は？\n\n対応通貨は以下です。\n- Bitcoin\n- Ethereum\n- Ethereum Classic\n- Lisk\n- Factom\n- Monero\n- Augur\n- Ripple\n- Zcash\n- NEM\n- Litecoin\n- Dash\n- Bitcoin Cash\n- Zen\n- NCXC\n- mosaic COMSA\n- CICC\n- ERC20 COMSA\n- PEPECASH\n- Counterparty\n- BitCrystals\n- Zaif\n- Monacoin\n- FSCC"
+  },
+  {
+    "id": "services/a/uid/000000cdebdcb5dc?hl=ja",
+    "name": "マローヘアアンドスパ",
+    "author": "Forex Robotics Co., Ltd.",
+    "description": "Mallow hair and spaでは、店舗サービスの説明や取扱商品の紹介を行います。"
+  },
+  {
+    "id": "services/a/uid/000000fc2f945b89?hl=ja",
+    "name": "音楽ランキング",
+    "author": "Hirokazu Takatama",
+    "description": "iTunesから無料提供された音楽ランキングを流します。総合ランキング以外に、アニメ、J-POP、K-POPにも対応しています。指定した順位から1位に向かって発表する逆ランキングも可能です。\n\n音楽情報を取得するのに少々時間がかかります。\n5曲ずつ「続けますか？」と聞かれるので、「はい」と答えてください。"
+  },
+  {
+    "id": "services/a/uid/000000b349693dc4?hl=ja",
+    "name": "イートアンドバイト",
+    "author": "Yoichiro Tanaka",
+    "description": "イートアンドバイトは、3桁の全て異なる数字を推測し当てるゲームです。もし位置が合っていればイート、位置がずれていたらバイトとなります。イートとバイトの数をヒントにして推測し、3イートになれば正解です。"
+  },
+  {
+    "id": "services/a/uid/0000001426af29f9?hl=ja",
+    "name": "ゼクシィキッチン",
+    "author": "Recruit Holdings Co.,Ltd.",
+    "description": "今日は何作ろうかな？  そんな時にゼクシィキッチンを使うとオススメのレシピを教えてくれます。\nゼクシィキッチンでは、ジャンルによる検索や使っている食材を元にレシピを検索できます。"
+  },
+  {
+    "id": "services/a/uid/000000a3577321f2?hl=ja",
+    "name": "アニソンクイズ",
+    "author": "Hirokazu Takatama",
+    "description": "iTunesから無料提供された曲によるイントロクイズです。オープニング曲を15秒間流します。3つの選択肢から、アニメのタイトルを当ててください。"
+  },
+  {
+    "id": "services/a/uid/00000016f5f332f2?hl=ja",
+    "name": "国の漢字",
+    "author": "ohanashi.app",
+    "description": "国の漢字の書き方を教えてくれます。\n例えば、アメリカは「亜流のアに、米に、利益のリに、加えると書きます」という形で書き方を教えてくれます。"
+  },
+  {
+    "id": "services/a/uid/000000f217255fe0?hl=ja",
+    "name": "レコードキーパー",
+    "author": "",
+    "description": "話した内容を記録して言葉で検索できます。記録はそれぞれのGoogle Homeのアカウントに毎に行われます。\n\n記録は自動的に行われます。終了するときは\n「記録終了」\nと発声してください。検索する場合は\n「○○○を思い出して」\nと発声してください。○○○は単語でも文章でもかまいません。\n検索結果はもっとも最近の発言を再生します。\n\nおすすめの使い方は会議の際に、自分のスマートフォンにヘッドセットをつないで、何を自分が話したかを記録することです。\n\n※拡張予定機能\n暗証番号（暗証番号で検索を保護する）\n時間指定検索（先月の○○○を思い出してetc）\nグループ機能（グループ番号を設定して、複数人の発言をまとめて検索）\nなどなど"
+  },
+  {
+    "id": "services/a/uid/000000349d9e50b1?hl=ja",
+    "name": "国名クイズ",
+    "author": "",
+    "description": "世界の国に関するクイズです。\n国の面積、世界遺産などの観光名所、料理や音楽、出身の著名人などのヒントをもとに、国の名前を当ててください。\nかんたん、ふつう、むずかしいの三段階のレベルを選べます。かんたんなら小学生のお子様でも知っている有名な国のクイズを楽しめますし、ふつうなら一般的にある程度知られている国の名前が出題され、むずかしいだと、地理に詳しい人でも難しいくらいの問題を楽しみいただけます。出題される問題は100か国以上です。\nぜひお楽しみください！\n\n*クイズの出題内容については気を付けているつもりですが、間違いにお気づきの際は、saipress.info@gmail.comまでお知らせいただければ幸いです。\n\nアイコン素材 Designed by Freepik\nhttps://jp.freepik.com/free-vector/ベクター画像_776506.htm"
+  },
+  {
+    "id": "services/a/uid/000000ed7ceead40?hl=ja",
+    "name": "アシスタントの冒険",
+    "author": "TotetoGames",
+    "description": "情報世界のダンジョンに閉じ込められた「音声アシスタント」を導いてゴールを目指しましょう。\n敵からの攻撃やバッテリー残量に注意しながら安全に導いてあげましょう。\n\n＊音声アシスタントは褒めると反応が少し変わります。\n＊進む方角の指示で反応が悪いときは「～方向」と言っていただくと精度が上がります。\n＊操作がわからない時、聞き逃したときは「何て言えばいい」と聞くと状況に合わせて選択肢を教えてくれます。\n\n効果音：魔王魂"
+  },
+  {
+    "id": "services/a/uid/000000134afd29bf?hl=ja",
+    "name": "印刷クイズ",
+    "author": "YUSUKE KURATA",
+    "description": "印刷に関連するクイズを出題します。\n3択のクイズを出題するので、1〜3の番号で回答して下さい。\n回答後、正解か不正解か発表してクイズの解説を行います。"
+  },
+  {
+    "id": "services/a/uid/0000003a414e4c10?hl=ja",
+    "name": "みんなの百人一首",
+    "author": "A.N",
+    "description": "このアプリでは、百人一首をランダムに並び替えて、読み上げます。各首を読み上げたあと、「つぎ」で進み、「もう一度」で繰り返し、「おしまい」で終わります。"
+  },
+  {
+    "id": "services/a/uid/000000a2c8a5662f?hl=ja",
+    "name": "カクテルくん",
+    "author": "Akio Kanno",
+    "description": "「カクテルくん」はランダムでカクテルにつて、簡単に紹介をしてくれます。カクテルについての「味」、「何が入っているか」、「小ネタ」などを教えてくれます。\n\nカクテルくんを使って、次に飲んでみたいカクテルを探してみてください。\n\n使い方\n　・「カクテルをください」\n　・「カクテルを紹介して」\n\n※ カクテル情報は不定期で更新していきます。"
+  },
+  {
+    "id": "services/a/uid/0000005ce471a473?hl=ja",
+    "name": "ココイマ",
+    "author": "Toshiaki Kobayashi",
+    "description": "お持ちデバイスの現在地の緯度と経度がわかります。"
+  },
+  {
+    "id": "services/a/uid/000000c9f9435c7c?hl=ja",
+    "name": "じゃんけん大好き丸",
+    "author": "tomoki katsu",
+    "description": "じゃんけん大好き丸では、じゃんけんを一緒にしてくれます。\n暇つぶしにとっておきのアプリです。"
+  },
+  {
+    "id": "services/a/uid/000000045e694e9b?hl=ja",
+    "name": "スタートプレイヤーメーカー",
+    "author": "Heachoboard_AQ",
+    "description": "スタートプレイヤーメーカーは、ボードゲームでのスタートプレイヤー(最初の手番の人)を決めてくれるアプリです。「スタプレ決めて」というと、決め方を教えてくれます。また、特定のボードゲーム(例：「カタンのスタプレは?」)について聞くと、そのボードゲームのスタートプレイヤーの決め方を教えてくれます。"
+  },
+  {
+    "id": "services/a/uid/0000005ac9ab2635?hl=ja",
+    "name": "SUUMO",
+    "author": "Recruit Holdings Co.,Ltd.",
+    "description": "SUUMOは、エリア・家賃・間取りの条件から、あなたにぴったりの物件を探します。(現在は、東京都のみを対象としています。)"
+  },
+  {
+    "id": "services/a/uid/0000007669088567?hl=ja",
+    "name": "ゲームナビ",
+    "author": "GameFavo",
+    "description": "このスキルは、ゲーム情報サイト「GameFavo(ゲームファボ)」 がお届けするゲーム情報スキルです。ゲーム好きが使用したくなるGoogleアシスタントアプリになれたらいいなと思ってます。\n\nゲーム関連情報を得るには、\n 「サーモンランの予定を教えて」\n 「ゲームニュースを教えて」\n 「ゲームセールを教えて」\n 「UTC 9時の日本時間は？」\nとGoogleアシスタントに話しかけてみてください。\n\n他にも何か便利そうな情報があったら随時追加していく予定です。\n\n※スプラトゥーン2の情報は、GameFavoが非公式で提供している情報であり、任天堂とは関係ありません。"
+  },
+  {
+    "id": "services/a/uid/000000b65c594381?hl=ja",
+    "name": "恵方コンパス",
+    "author": "がおまるラボ",
+    "description": "『恵方コンパス』は年ごとの「恵方」の方角を教えてくれます。\n\n「恵方」は方位神の一つで、その方角に向かって事を行えば縁起がいいとされます。節分の日に恵方を向いて食べると吉とされている「恵方巻き」は関西を中心としてはじまった風習の一つです。\n\n「今年の方角は」と言えば今年の恵方を教えてくれます。\n「2018年の方角」と知りたい年を言っても答えてくれます。\n終了する場合は、「終了」と言ってください。"
+  },
+  {
+    "id": "services/a/uid/000000c78865b9fb?hl=ja",
+    "name": "三目並べ",
+    "author": "Google Inc.",
+    "description": "3 つの ○ か × を並べよう。"
+  },
+  {
+    "id": "services/a/uid/000000a23cb16792?hl=ja",
+    "name": "20秒カウントダウン",
+    "author": "恵比寿ボイスプロダクション",
+    "description": "このアプリは20秒を計測してくれるアプリです。\nこのアプリにつなぐと、すぐにカウントダウンを開始します。\nカウントダウンが終わるとアプリは終了します。\nカウントダウンは正確な時間と比較して誤差がある場合があります。"
+  },
+  {
+    "id": "services/a/uid/000000673d93923e?hl=ja",
+    "name": "動物の漢字",
+    "author": "ohanashi.app",
+    "description": "動物の漢字を教えてくれます。\n例えば、ジャイアントパンダは「大に、熊に、猫と書きます」という形で教えてくれます。"
+  },
+  {
+    "id": "services/a/uid/00000035fec4e18a?hl=ja",
+    "name": "ルービック キューブ",
+    "author": "Google Inc.",
+    "description": "ブロックを回して、画面上のルービック キューブの色をそろえましょう。"
+  },
+  {
+    "id": "services/a/uid/000000721db44023?hl=ja",
+    "name": "脆弱性検索",
+    "author": "",
+    "description": "情報機器の脆弱性検索を支援します。\n入力された文字を脆弱性を検索するためのサイトの\n入力した形にして検索をしやすくします。"
+  },
+  {
+    "id": "services/a/uid/000000ce1e5f1f09?hl=ja",
+    "name": "Hit&amp;Blow",
+    "author": "TotetoGames",
+    "description": "アシスタントの考えている4桁の数字を当てる数あてゲームです。正解の数字は4桁で同じ数を含みません。あなたの回答と正解を比べて、数と桁位置の両方が同じ場合はヒット、数だけが同じで桁位置が異なる場合はブロー、としてカウントし「1ヒット2ブロー」「0ヒット3ブロー」のようにお伝えします。例えば、正解が「９０１８」の時にあなたの回答が「９０８７」の場合は「2ヒット1ブロー」とお伝えします。ヒントをもとに少ない回数で正解を目指しましょう！"
+  },
+  {
+    "id": "services/a/uid/00000022d4314549?hl=ja",
+    "name": "Eレシピ",
+    "author": "エキサイト株式会社(Excite Japan Co., Ltd.)",
+    "description": "家庭料理研究家などの料理のプロが制作するE・レシピから、すぐに作れる今日の献立をお届けします。料理初心者でも簡単においしい料理が作れます。\nE・レシピは「おうちで食べたいプロの簡単レシピ」をお届けするレシピサイトです。プロの料理研究家や管理栄養士によるバランスのとれた美味しいレシピを提案します。\n料理写真家が撮影した美しいレシピ写真を生かしたデザインと、検索のしやすさを追求し、メインからデザートまで35,000件以上のレシピを無料で提供しています。\nhttps://erecipe.woman.excite.co.jp/"
+  },
+  {
+    "id": "services/a/uid/0000007b6f3c568e?hl=ja",
+    "name": "フレンズを紹介するラッキーさん",
+    "author": "HideG",
+    "description": "当該アニメに登場した動物(フレンズ)の名前を呼びかけると、ラッキーさん（ラッキービースト）が調べてくれます。\n\n「けものフレンズ」プロジェクトの＜二次創作に関するガイドライン＞に則り作成した非公式スキルです。\nhttp://kemono-friends.jp/"
+  },
+  {
+    "id": "services/a/uid/000000db831b57f9?hl=ja",
+    "name": "暗算ゲーム",
+    "author": "SAIPRESS",
+    "description": "暗算に挑戦できるゲームです。\n足し算、引き算、掛け算、割り算とその複合問題に暗算で次々と答えてください。\n難易度は小学校低学年から挑戦できる入門や初級から、中級、上級、大人でも難しい超上級まで選ぶことができます。\n暗算力を鍛え、脳を活性化するゲームです。\nぜひ、この最高の暗算ゲームに挑戦してみてください！"
+  },
+  {
+    "id": "services/a/uid/000000d794adeecb?hl=ja",
+    "name": "村上春樹風に語る",
+    "author": "Beyond, Inc.",
+    "description": "スピーカーに話しかけたキーワードを村上春樹風に語ります。例えば、「サンドウィッチ」や「ウィスキー」といった言葉を話しかけてみてください。"
+  },
+  {
+    "id": "services/a/uid/000000a0f0ff0bd4?hl=ja",
+    "name": "育児ノート",
+    "author": "",
+    "description": "育児ノートでは、赤ちゃんのうんち、おしっこ、授乳の時間やミルクの量を記録することが出来ます。さらに、その時々でメモしておきたい内容も日記として記録することが出来ます。\n\n記録する場所は、あなたのGoogle スプレッドシートです。\n赤ちゃんの健康チェックに役立ててください。\n\n【初期設定】\n利用するにはGoogle スプレッドシートへのアクセス許可が必要です。\nまた、家族の人のシートを共有して使いたい場合はシートを共有設定し、そのシートIDを指定すると共有で利用が可能です。（初めて育児ノートを使う場合はシートIDの指定は必要ありません。自動で必要なシートを作成します。）\n\n【スプレッドシートについて】\n育児ノートのスプレッドシートは、Google Drive (https://drive.google.com/drive) に作成されます。\nAndroid, iPhone ともにアプリが公式アプリが用意されているのでそちらから内容を確認することが出来ます。\nシート内のシート名は、西暦と月で命名されます。（2018年1月だと201801というシートが生成されます）\n\n【注意事項】\n・本アプリで記録する時間帯は日本時間です\n・スプレッドシートは基本的に”閲覧だけ”の利用に留めて下さい、不用意な編集は育児ノートの動作に影響を与える可能性があります\n・一旦スプレッドシートを削除するとGoogle Driveのゴミ箱に入ります。ゴミ箱から完全削除するまではアプリは使用可能ですが、完全削除した場合はアプリの使用ができなくなるので https://myaccount.google.com/permissions から育児ノートのアクセス権を削除してください。\n・スプレッドシートのアクセス許可を取り消す場合は、 https://myaccount.google.com/permissions から育児ノートを削除してください\n\n【利用方法】\n・「おしっこ」「おしっこしたよ」などと言うと、時間帯を記録します\n・「うんち」「うんちしたよ」などと言うと、時間帯を記録します\n・「おしっことうんちしたよ」などと言うと、それぞれに時間帯を記録します\n・「授乳40分したよ」「ミルク60ミリ飲んだよ」など、時間やミルク量と一緒に言うと、それらを時間帯とともに記録します\n・「ミルク」「おっぱい」など、時間や量を指定しないと「何ミリ飲みました？もしくは何分飲みました？」と聞かれるのでそれに答えて下さい\n・「日記」「メモ」などと言うと、「記録する内容を言って下さい。」と聞かれるので、その後に自由に記録したい内容を喋って下さい\n・終わる場合は、「おわり」「バイバイ」などと言って終了して下さい"
+  },
+  {
+    "id": "services/a/uid/000000090856132f?hl=ja",
+    "name": "筋トレくん",
+    "author": "Daisuke Ikeda",
+    "description": "筋トレくんは、自宅で筋力トレーニングやその他エクササイズを行う場合に、指定したペース配分で希望する回数までカウントアップしてくれるアプリです。"
+  },
+  {
+    "id": "services/a/uid/000000c180424ab2?hl=ja",
+    "name": "江戸バスの時刻表",
+    "author": "ohanashi.app",
+    "description": "江戸バスの出発時刻を回答します。\n駅と時間を言うと、その日の該当時間帯の出発時刻を回答します。\n例えば、下記のような方法で問いかけます。\n　問いかけ：「新島橋の13時（平日に問い合わせた場合）」\n　回答：「新島橋のバスの出発時刻は、15分、35分、55分、です。」"
+  },
+  {
+    "id": "services/a/uid/000000bc35106221?hl=ja",
+    "name": "張内科クリニック",
+    "author": "",
+    "description": "張内科クリニックの診療時間、住所、電話番号などの案内をします。"
+  },
+  {
+    "id": "services/a/uid/000000db9c7a3b32?hl=ja",
+    "name": "今日の私",
+    "author": "Daisuke Ikeda",
+    "description": "思いついた単語を言うことで、今日の「イケてる度」を計測。イケてる度は0〜100の数字で表現されます。仮に同じ単語でも毎日イケポ(イケてるポイント)は変わります。"
+  },
+  {
+    "id": "services/a/uid/000000d2c82274e7?hl=ja",
+    "name": "トレンドくん",
+    "author": "Daisuke Ikeda",
+    "description": "Twitterをメインにソーシャルネットワークで話題となっているキーワードをリアルタイムで聞けます。日本国内の主要地域の指定もできます。"
+  },
+  {
+    "id": "services/a/uid/0000005ffb30f39d?hl=ja",
+    "name": "ボジョレー ソムリエ",
+    "author": "がおまるラボ",
+    "description": "ボジョレーヌーボーのキャッチコピーが分かります。\nボジョレーヌーボーのキャッチコピーをお答えします。\n知りたい年を教えてください。\n\n終了する場合は、終了と言ってください。"
+  },
+  {
+    "id": "services/a/uid/0000002b8f118986?hl=ja",
+    "name": "ろぼ　猫",
+    "author": "",
+    "description": "Talk to the new robot cat"
+  },
+  {
+    "id": "services/a/uid/000000295ea48a84?hl=ja",
+    "name": "暗記の達人",
+    "author": "Daisuke Ikeda",
+    "description": "数字を暗記して答える事で暗記力を鍛える脳トレ系ゲームアプリです。出題される数字は正解するたびに1桁づつ増えていき難易度が上がっていきます。頭をフル回転させて脳トレしましょう。ある一定桁まで行くと「暗記の達人」に認定です。"
+  },
+  {
+    "id": "services/a/uid/0000005bca10db60?hl=ja",
+    "name": "シンデレラガールズユニット情報",
+    "author": "煮鱒",
+    "description": "特定のアイドルが参加しているユニットの情報や共演しているアイドルの情報を調べることができます"
+  },
+  {
+    "id": "services/a/uid/0000004ac2960a72?hl=ja",
+    "name": "ファーマシストオンライン",
+    "author": "PharmaCloud Inc.",
+    "description": "薬剤師が日々の業務の中で「地味にめんどう」に感じることを人工知能がお手伝い、薬局業務の効率化に貢献します。\n【このように聞いてみましょう】「（薬品名）は何人ぐらい？」「（薬品名）は何錠でてる？」「（薬品名）はいつでてる？」「（薬品名）はいつでそう？」「（上記いずれかの質問したあと）去年の◯月は？」「（上記いずれかの質問したあと）今年の◯月は？」「一人しか出ていない薬を教えて」「（薬品名）どこかの薬局にない？」「不動在庫を教えて」「90わる14は？」【注　意　点】薬の名前、剤形、数字はハッキリ話しましょう。薬の名前をいい慣れていない方が話した場合は、認識精度が落ちるかもしれません。"
+  },
+  {
+    "id": "services/a/uid/000000b87bb54550?hl=ja",
+    "name": "ピニャータ パーティー",
+    "author": "Google Inc.",
+    "description": "Doodle チームが提供するピニャータ ゲーム。たたいて割ってキャンディをゲットしよう。"
+  },
+  {
+    "id": "services/a/uid/000000171fcccf48?hl=ja",
+    "name": "計算クイズ",
+    "author": "Google Inc.",
+    "description": "楽しいクイズを解いて、基本的な数字の知識を試しましょう。"
+  },
+  {
+    "id": "services/a/uid/000000f326471e54?hl=ja",
+    "name": "円谷英二",
+    "author": "Google Inc.",
+    "description": "円谷英二氏の生誕記念 Doodle で、怪獣たちを主人公に映画を作成しましょう。"
+  },
+  {
+    "id": "services/a/uid/0000000d002fb5d0?hl=ja",
+    "name": "Ludwig van Beethoven Doodle",
+    "author": "Google Inc.",
+    "description": "バラバラになったベートーヴェンの楽譜を正しい順番に並べ替えるインタラクティブな Doodle です。"
+  },
+  {
+    "id": "services/a/uid/00000055d65cab31?hl=ja",
+    "name": "クララ・ロックモア Doodle",
+    "author": "Google Inc.",
+    "description": "簡単なレッスンを受けて、バーチャル テルミンを奏でてみましょう。"
+  },
+  {
+    "id": "services/a/uid/0000008672b39fbf?hl=ja",
+    "name": "Honeywell",
+    "author": "Honeywell International Inc.",
+    "description": "Google アシスタントと Honeywell に接続されたサーモスタットが快適な環境の管理を実現します。Lyric Round™、Lyric™ T シリーズ、Total Connect Comfort サーモスタットのすべてに対応しています。"
+  },
+  {
+    "id": "services/a/uid/000000fa2ff6cb3d?hl=ja",
+    "name": "キャンディカップ",
+    "author": "Google Inc.",
+    "description": "魔女を選んで魔法のほうきを手に入れたら、キャンディを集めにいきましょう。勝つのはどの魔女でしょうか？"
+  },
+  {
+    "id": "services/a/uid/0000008eac59e43b?hl=ja",
+    "name": "エンタメクイズ",
+    "author": "Google Inc.",
+    "description": "制限時間内にクイズに答えて、映画やテレビ番組に関する知識を試してみましょう。"
+  },
+  {
+    "id": "services/a/uid/0000009b4ae8e5c6?hl=ja",
+    "name": "ウィルバー・スコヴィル",
+    "author": "Google Inc.",
+    "description": "辛い唐辛子のモンスターを冷たいアイスクリームで撃退する、インタラクティブな Doodle です。"
+  },
+  {
+    "id": "services/a/uid/000000c40a79cd70?hl=ja",
+    "name": "ポニー エクスプレス",
+    "author": "Google Inc.",
+    "description": "Doodle チームが提供するスピード感あふれるゲーム。馬に乗ってたくさん手紙を集めよう。"
+  },
+  {
+    "id": "services/a/uid/000000a56db6a9b2?hl=ja",
+    "name": "おすすめのゲーム",
+    "author": "恵比寿ボイスプロダクション",
+    "description": "このアプリが起動するとおすすめのゲームを教えるメッセージを聞いてきます。自分のおすすめのゲームを教えるメッセージを登録すると、他の人がおすすめしているゲームのメッセージを聞くことができます。"
+  }
+]
