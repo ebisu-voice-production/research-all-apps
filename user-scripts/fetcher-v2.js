@@ -1,4 +1,5 @@
-location.href='https://assistant.google.com/explore/g/5?hl=ja';
+const TARGET = 'https://assistant.google.com/explore/g/5?hl=ja';
+if (location.href !== TARGET) location.href = TARGET;
 
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 const scrollDown = async () => {
