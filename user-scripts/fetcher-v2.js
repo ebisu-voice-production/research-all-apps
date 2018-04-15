@@ -13,7 +13,7 @@ const scrollDown = async () => {
   }
 };
 const getData = () => [].map.call(document.querySelectorAll('.GpVDee'), x => ({
-  id: x.getAttribute('href'),
+  id: x.querySelector('a').getAttribute('href'),
   name: x.querySelector('.hzMTRd').innerHTML,
   author: x.querySelector('.OlFmif').innerHTML,
   description: x.querySelector('.fOsD6b').innerHTML,
