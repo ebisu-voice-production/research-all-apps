@@ -12,10 +12,15 @@ const scrollDown = async () => {
     pos = document.getElementsByClassName('y3IDJd')[0].scrollTop;
   }
 };
-const getData = () => JSON.stringify([].map.call(document.querySelectorAll('.GpVDee'), x => ({ id: x.getAttribute('href'), name: x.querySelector('.hzMTRd').innerHTML, author: x.querySelector('.OlFmif').innerHTML, description: x.querySelector('.fOsD6b').innerHTML })), null, 2);
+const getData = () => [].map.call(document.querySelectorAll('.GpVDee'), x => ({
+  id: x.getAttribute('href'),
+  name: x.querySelector('.hzMTRd').innerHTML,
+  author: x.querySelector('.OlFmif').innerHTML,
+  description: x.querySelector('.fOsD6b').innerHTML,
+}));
 const main = async () => {
   await scrollDown();
-  console.log(getData());
+  console.log(JSON.stringify(getData(), null, 2));
 };
 
 main();
