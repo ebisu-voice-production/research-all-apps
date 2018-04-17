@@ -12,20 +12,27 @@ const scrollDown = async () => {
     pos = document.getElementsByClassName('y3IDJd')[0].scrollTop;
   }
 };
-const getData = () => [].map.call(document.querySelectorAll('.GpVDee'), x => ({
-  id: x.querySelector('a').getAttribute('href'),
-  name: x.querySelector('.hzMTRd').innerHTML,
-  author: x.querySelector('.OlFmif').innerHTML,
-  description: x.querySelector('.fOsD6b').innerHTML,
-}));
-const getData2 = () => [].map.call(document.querySelectorAll('.dtkM8b'), x => ({
-  id: x.getAttribute('href'),
-  name: x.querySelector('.pNjEHe').innerHTML,
-  author: x.querySelector('.pNjEHe').innerHTML,
-}));
+const getItem = () => ({
+  name: document.querySelector('.nHPWwd').innerHTML,
+  author: document.querySelector('.Ry0mub').firstChild.textContent,
+  description: document.querySelector('.JqJiee').innerHTML,
+  email: document.querySelector('.ReVo3:nth-of-type(1)').innerHTML,
+  privacy: document.querySelector('.ReVo3:nth-of-type(2)').getAttribute('href'),
+});
+const getData = () => [].map.call(document.querySelectorAll('a'), async ele => {
+  const id = ele.getAttribute('href');
+  if (!id.startsWith('services/')) return null;
+  ele.click();
+  await sleep(1500);
+  const item = getItem();
+  item.id = id;
+  history.back();
+  await sleep(500);
+  return item;
+}).filter(x => x);
 const main = async () => {
   await scrollDown();
-  console.log(JSON.stringify([...getData(), ...getData2()], null, 2));
+  console.log(JSON.stringify(getData(), null, 2));
 };
 
 main();
