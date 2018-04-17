@@ -19,20 +19,23 @@ const getItem = () => ({
   email: document.querySelector('.ReVo3:nth-of-type(1)').innerHTML,
   privacy: document.querySelector('.ReVo3:nth-of-type(2)').getAttribute('href'),
 });
-const getData = () => [].map.call(document.querySelectorAll('a'), async ele => {
-  const id = ele.getAttribute('href');
-  if (!id.startsWith('services/')) return null;
-  ele.click();
-  await sleep(1500);
-  const item = getItem();
-  item.id = id;
-  history.back();
-  await sleep(500);
-  return item;
-}).filter(x => x);
+const getData = async () => {
+  const elements = [].filter.call(document.querySelectorAll('a'), ele => ele.getAttribute('href').startsWith('services/'));
+  const items = [];
+  for (const ele of elements) {
+    ele.click();
+    await sleep(1500);
+    const item = getItem();
+    item.id = ele.getAttribute('href');
+    history.back();
+    await sleep(500);
+    items.push(item);
+  }
+  return items;
+};
 const main = async () => {
   await scrollDown();
-  console.log(JSON.stringify(getData(), null, 2));
+  console.log(JSON.stringify(await getData(), null, 2));
 };
 
 main();
