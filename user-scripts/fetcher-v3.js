@@ -13,12 +13,14 @@ const scrollDown = async () => {
   }
 };
 const getFirstText = ele => ele.firstChild && ele.firstChild.textContent;
+const getLink = ele => ele && ele.getAttribute('href');
+const getEmail = ele => { const href = getLink(ele); return href && href.startsWith('mailto:') && href.slice(7); };
 const getItem = () => ({
   name: document.querySelector('.nHPWwd').innerHTML,
   author: getFirstText(document.querySelector('.Ry0mub')),
   description: document.querySelector('.JqJiee').innerHTML,
-  email: document.querySelector('.ReVo3:nth-of-type(1)').innerHTML,
-  privacy: document.querySelector('.ReVo3:nth-of-type(2)').getAttribute('href'),
+  email: getEmail(document.querySelector('.ReVo3:nth-of-type(1)')),
+  privacy: getLink(document.querySelector('.ReVo3:nth-of-type(2)')),
 });
 const getData = async () => {
   const elements = [].filter.call(document.querySelectorAll('a'), ele => ele.getAttribute('href').startsWith('services/'));
@@ -31,6 +33,7 @@ const getData = async () => {
     history.back();
     await sleep(1000);
     items.push(item);
+    console.log(item);
   }
   return items;
 };
