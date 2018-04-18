@@ -25,15 +25,21 @@ const getItem = () => ({
 const getData = async () => {
   const elements = [].filter.call(document.querySelectorAll('a'), ele => ele.getAttribute('href').startsWith('services/'));
   const items = [];
-  for (const ele of elements) {
+  for (let i = 0; i < elements.length; ) {
+    const ele = elements[i];
     ele.click();
-    await sleep(2000);
+    await sleep(2500);
     const item = getItem();
     item.id = ele.getAttribute('href');
     history.back();
-    await sleep(1000);
-    items.push(item);
-    console.log(item);
+    await sleep(1500);
+    if (items.find(x => x.id === item.id)) {
+      console.log('duplicated, redoing');
+    } else {
+      items.push(item);
+      console.log(item);
+      i += 1;
+    }
   }
   return items;
 };
