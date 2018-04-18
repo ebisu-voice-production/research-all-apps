@@ -28,11 +28,11 @@ const getData = async () => {
   for (let i = 0; i < elements.length; ) {
     const ele = elements[i];
     ele.click();
-    await sleep(2500);
+    await sleep(3000);
     const item = getItem();
     item.id = ele.getAttribute('href');
     history.back();
-    await sleep(1500);
+    await sleep(1000);
     if (items.find(x => x.id === item.id)) {
       console.log('duplicated, redoing');
     } else {
