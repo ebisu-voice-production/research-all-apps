@@ -33,7 +33,7 @@ const getData = async () => {
     item.id = ele.getAttribute('href');
     history.back();
     await sleep(1000);
-    if (items.find(x => x.id === item.id)) {
+    if (items.find(x => x.name === item.name)) {
       console.log('duplicated, redoing');
     } else {
       items.push(item);
