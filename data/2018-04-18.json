@@ -8,11 +8,11 @@
     "id": "services/a/uid/000000116c803d61?hl=ja"
   },
   {
-    "name": "便利な ミドナ",
-    "author": "Crossdoor Inc.",
-    "description": "Crossdoorを利用した赤外線リモコンの操作アプリです。\nCrossdoor親機、子機をお持ちの方は次の家電を音声で操作することが出来るようになります。\n・エアコン\n・照明",
-    "email": "support@crossdoor.jp",
-    "privacy": "https://midona.crossdoor.jp/privacy_policy.html",
+    "name": "サーフスノー",
+    "author": "Gurunavi, Inc.",
+    "description": "スキー場コンディションを教えてくれる\bアプリです。\nスキー場名を言えばその日のスキー場コンディションを声で教えてくれます。",
+    "email": "develop-travel@gmail.com",
+    "privacy": "https://docs.google.com/document/d/1VzxjKjjB9t7YiM5nBXwa9VsQ13KDUin_QnqsaZwlORM/edit?usp=sharing",
     "id": "services/a/uid/000000fd66368000?hl=ja"
   },
   {
@@ -168,43 +168,43 @@
     "id": "services/a/uid/000000b2793c23d5?hl=ja"
   },
   {
-    "name": "MN2問題集",
-    "author": "PG_MANA",
-    "description": "簡単なクイズや国家試験の過去問などの四択問題に答えるアプリです。\n「エムエヌツー問題集」と読みます。\n現在は都道府県県庁所在地当てクイズと、アマチュア無線技士3級国家試験過去問題集などを用意しています。順次追加していたいと思います。\nアプリを終了する場合は、回答の途中で「終了」と話しかけてください。\nなお、結果のセーブ機能はありません。",
-    "email": "pg_mana@taprix.org",
-    "privacy": "https://soft.taprix.org/policy/mn2.html",
+    "name": "AI節子",
+    "author": "3.6",
+    "description": "節約を極めたい女AI「SETSUKO」は、おすすめを聞くと日常でつかえるさまざまな節約術をおしえてくれます。たまに間違ったことを言うこともありますが、その場合は大目に見てくださいね。",
+    "email": "ketciy@gmail.com",
+    "privacy": "https://www.ai-times.biz/2018/03/aisetsuko.html",
     "id": "services/a/uid/000000b079058870?hl=ja"
   },
   {
-    "name": "MN2問題集",
-    "author": "PG_MANA",
-    "description": "簡単なクイズや国家試験の過去問などの四択問題に答えるアプリです。\n「エムエヌツー問題集」と読みます。\n現在は都道府県県庁所在地当てクイズと、アマチュア無線技士3級国家試験過去問題集などを用意しています。順次追加していたいと思います。\nアプリを終了する場合は、回答の途中で「終了」と話しかけてください。\nなお、結果のセーブ機能はありません。",
-    "email": "pg_mana@taprix.org",
-    "privacy": "https://soft.taprix.org/policy/mn2.html",
+    "name": "学校あるあるニュース",
+    "author": "VoiceApp Lab",
+    "description": "学校あるあるニュースは、学校のあるあるをニュース形式でお届けするアプリです。いちどに二個までのニュースを聞くことができます。\n\nあんなことあったなぁと、思い出して楽しんでください。\n\n注意事項: このアプリは娯楽目的のジョークアプリであり、実際のニュースを提供するものではありません。\n\n↓あるある！と思ったら★★★★★をつけていただけると嬉しいです！",
+    "email": "info@voiceapp-lab.com",
+    "privacy": "https://docs.google.com/document/d/1ugrpK691GXWHKRf34I7lNW3RJOEFrfn9HD7F1WrxOXk/edit?usp=sharing",
     "id": "services/a/uid/00000063a66c426e?hl=ja"
   },
   {
-    "name": "MN2問題集",
-    "author": "PG_MANA",
-    "description": "簡単なクイズや国家試験の過去問などの四択問題に答えるアプリです。\n「エムエヌツー問題集」と読みます。\n現在は都道府県県庁所在地当てクイズと、アマチュア無線技士3級国家試験過去問題集などを用意しています。順次追加していたいと思います。\nアプリを終了する場合は、回答の途中で「終了」と話しかけてください。\nなお、結果のセーブ機能はありません。",
-    "email": "pg_mana@taprix.org",
-    "privacy": "https://soft.taprix.org/policy/mn2.html",
+    "name": "うんこカウンター",
+    "author": "4.6",
+    "description": "このアプリは、ユーザーが喋ったキーワード（うんこ）の回数をカウントします。何回もチャレンジして、どんどんスコアを更新しましょう！コツを掴んでくると、凄いハイスコアが出ちゃたりしますよ。さあ、思いっきりしゃべって日常のストレスを発散しちゃいましょう！\n\n＜遊び方＞\nスタート！したら、\nどんどんキーワード（うんこ）を喋って下さい。\nその後キーワードの数をカウントいたします。\nカウンターの最高点数が記録されますので、\n自己ベストにチャレンジして下さい。\n\n＜リセット＞\n「リセット」と喋ると自己ベストの記録が０点にリセットされ\nまた最初からお楽しみ頂けます。\n\n＜高得点を出すヒント＞\n同じキーワードだけを連続して喋り続けた場合は、\n音声入力がすぐに自動終了してしまいます。\nこれだと、それほど多くの文章を入力することが出来ません。\nところが、キーワード以外の言葉を途中に若干混ぜて入れることにより自動終了しにくくなります。",
+    "email": "paapuu@gmail.com",
+    "privacy": "https://multilingirl.mybluemix.net/unko/policy",
     "id": "services/a/uid/000000b4699e0c63?hl=ja"
   },
   {
-    "name": "MN2問題集",
-    "author": "PG_MANA",
-    "description": "簡単なクイズや国家試験の過去問などの四択問題に答えるアプリです。\n「エムエヌツー問題集」と読みます。\n現在は都道府県県庁所在地当てクイズと、アマチュア無線技士3級国家試験過去問題集などを用意しています。順次追加していたいと思います。\nアプリを終了する場合は、回答の途中で「終了」と話しかけてください。\nなお、結果のセーブ機能はありません。",
-    "email": "pg_mana@taprix.org",
-    "privacy": "https://soft.taprix.org/policy/mn2.html",
+    "name": "30ゲーム",
+    "author": "shoko_hifivy",
+    "description": "1から30までを数えて「30」を言った方が負けるゲーム。スマートスピーカーと「30」まで数えます。あなたが「1と2と3」というと、スピーカーは「4と5」のように答えますので、続けて「6」のように答えてください。一度に3個まで数字をいうことができます。「30」を言った方が負けです。",
+    "email": "shoko.hifivy.produce@gmail.com",
+    "privacy": "https://game30-20f03.firebaseapp.com",
     "id": "services/a/uid/0000006dbb7c43ef?hl=ja"
   },
   {
-    "name": "MN2問題集",
-    "author": "PG_MANA",
-    "description": "簡単なクイズや国家試験の過去問などの四択問題に答えるアプリです。\n「エムエヌツー問題集」と読みます。\n現在は都道府県県庁所在地当てクイズと、アマチュア無線技士3級国家試験過去問題集などを用意しています。順次追加していたいと思います。\nアプリを終了する場合は、回答の途中で「終了」と話しかけてください。\nなお、結果のセーブ機能はありません。",
-    "email": "pg_mana@taprix.org",
-    "privacy": "https://soft.taprix.org/policy/mn2.html",
+    "name": "おすすめのアプリ",
+    "author": "tocie",
+    "description": "このアプリはわたしがおすすめのアプリをランダム紹介します。^^",
+    "email": "tocie.jp@gmail.com",
+    "privacy": "https://docs.google.com/document/d/1_qPmsDWeohvos9dDOH6tl3fLT_ZZ6zPUWy2-wOnHbWI/edit?usp=sharing",
     "id": "services/a/uid/000000cb87c66e5f?hl=ja"
   },
   {
@@ -2072,27 +2072,27 @@
     "id": "services/a/uid/000000d2c82274e7?hl=ja"
   },
   {
-    "name": "トレンドくん",
-    "author": "Daisuke Ikeda",
-    "description": "Twitterをメインにソーシャルネットワークで話題となっているキーワードをリアルタイムで聞けます。日本国内の主要地域の指定もできます。",
-    "email": "ohayou.ikechan@gmail.com",
-    "privacy": "https://docs.google.com/document/d/1C4s78jHYsEuPn-B8D8ePPWOxkptAt0xBfSepOf0uHRA/edit?usp=sharing",
+    "name": "ピカチュウトーク",
+    "author": "The Pokémon Company",
+    "description": "ピカチュウがあなたのお家にやってくる！\n\n「Ok Google、ピカチュウと話したい」\nと呼ぶだけで、あなたのもとにピカチュウがやって来ます。\n\n話しかけると、ピカチュウとおしゃべりができるよ。\n- 「ただいま」\n- 「10万ボルト！」\n- 「おはよう」\n- 「おやすみ」\n- 「なぐさめて」\n中には意外な反応をする言葉も？\nいろんな言葉で話しかけてみよう！\n　\nこれでいつでもピカチュウといっしょ！",
+    "email": "auto_reply@cs.pokemon.co.jp",
+    "privacy": "https://sites.google.com/pokemon.co.jp/pikachutalk/プライバシーポリシー",
     "id": "services/a/uid/000000395cb2424a?hl=ja"
   },
   {
-    "name": "トレンドくん",
-    "author": "Daisuke Ikeda",
-    "description": "Twitterをメインにソーシャルネットワークで話題となっているキーワードをリアルタイムで聞けます。日本国内の主要地域の指定もできます。",
-    "email": "ohayou.ikechan@gmail.com",
-    "privacy": "https://docs.google.com/document/d/1C4s78jHYsEuPn-B8D8ePPWOxkptAt0xBfSepOf0uHRA/edit?usp=sharing",
+    "name": "なりきり独裁者",
+    "author": "3.9",
+    "description": "[ VoiceApp Lab Presents ]\nあなたは独裁者です。あなたの演説を聞きに、数万もの国民がこの場に集まりました。さあ、彼らに声をかけてやってください。悪口はいけませんよ。ブーイングされないように気をつけて。上手にツッコむとウケるかもしれませんよ。プレゼンの練習や、日頃のストレス解消にどうぞ。",
+    "email": "kantetsuworks@gmail.com",
+    "privacy": "https://docs.google.com/document/d/1ugrpK691GXWHKRf34I7lNW3RJOEFrfn9HD7F1WrxOXk/edit?usp=sharing",
     "id": "services/a/uid/0000005790d0c58c?hl=ja"
   },
   {
-    "name": "トレンドくん",
-    "author": "Daisuke Ikeda",
-    "description": "Twitterをメインにソーシャルネットワークで話題となっているキーワードをリアルタイムで聞けます。日本国内の主要地域の指定もできます。",
-    "email": "ohayou.ikechan@gmail.com",
-    "privacy": "https://docs.google.com/document/d/1C4s78jHYsEuPn-B8D8ePPWOxkptAt0xBfSepOf0uHRA/edit?usp=sharing",
+    "name": "お願い サンタ！",
+    "author": "KANTETSU WORKS",
+    "description": "[ VoiceApp Lab Presents ]\nもうすぐクリスマス。お子さんがサンタさんに何をお願いしているかご存知ですか？このアプリは、こっそりとお子さんのリクエストをリサーチできるアプリです。お子さんがサンタさんにリクエストしたものを、後でこっそりと確認できます。複数のリクエストにも対応していますので、大家族でも大丈夫です。\n\n【秘密のお父さんモード】\n合言葉「雨は〜に」（by 山下達郎 クリスマス・イブの冒頭）と言うと、お父さんモードに入り、リクエストを確認できます。お子さんが寝静まったころにどうぞ。\n\n注意）リクエストをリサーチするアプリです。プレゼントは届きません。",
+    "email": "kantetsuworks@gmail.com",
+    "privacy": "https://docs.google.com/document/d/1ugrpK691GXWHKRf34I7lNW3RJOEFrfn9HD7F1WrxOXk/edit?usp=sharing",
     "id": "services/a/uid/0000006450b092fc?hl=ja"
   },
   {
@@ -2152,9 +2152,9 @@
     "id": "services/a/uid/0000004d5731f294?hl=ja"
   },
   {
-    "name": "天気",
+    "name": "電話",
     "author": "Google Inc.",
-    "description": "アシスタントに話しかけるだけで、指定した地域の天気や天気予報を聞くことができます。",
+    "description": "連絡先、お店、サービスなど、アシスタントに伝えるだけでどこへでも電話がかけられます。",
     "email": null,
     "privacy": null,
     "id": "services/a/uid/0000000d62875c0a?hl=ja"
@@ -2184,20 +2184,20 @@
     "id": "services/a/uid/000000e3622a1d56?hl=ja"
   },
   {
-    "name": "時計",
-    "author": "Google Inc.",
-    "description": "起床時間や薬を飲む時間など、音声だけでアラームの管理ができます。\n\nまた、料理、ゲーム、洗濯などをする際に、タイマーを設定することもできます。",
-    "email": null,
-    "privacy": null,
-    "id": "services/a/uid/0000005d8a63d90c?hl=ja"
-  },
-  {
     "name": "Google マップ",
     "author": "Google Inc.",
     "description": "目的地へのルートや、リアルタイムの交通情報を確認できます。",
     "email": null,
     "privacy": null,
     "id": "services/a/uid/0000002c2c90d1e2?hl=ja"
+  },
+  {
+    "name": "時計",
+    "author": "Google Inc.",
+    "description": "起床時間や薬を飲む時間など、音声だけでアラームの管理ができます。\n\nまた、料理、ゲーム、洗濯などをする際に、タイマーを設定することもできます。",
+    "email": null,
+    "privacy": null,
+    "id": "services/a/uid/0000005d8a63d90c?hl=ja"
   },
   {
     "name": "メッセージ",
@@ -2544,6 +2544,22 @@
     "id": "services/a/uid/000000b3331ef7ed?hl=ja"
   },
   {
+    "name": "Lutron Caseta Wireless",
+    "author": "Lutron Electronics Co., Inc.",
+    "description": "Lutron 社が提供する Caséta があれば、家中の照明を好きな場所から操作できます。電球の交換は必要はありません。550 種類以上の電球に対応する Caséta システムなら、手頃な価格でスマート照明へのアップグレードが可能です。",
+    "email": null,
+    "privacy": null,
+    "id": "services/a/uid/000000a6d9c1b8a2?hl=ja"
+  },
+  {
+    "name": "Hackajoe Labs",
+    "author": "Hook Smart Home",
+    "description": "Google アシスタントを使って Hook デバイスを操作できます。「OK Google」と話しかけ、Hook アプリに登録したデバイス名に続いて「オンにして」または「オフにして」と言うだけです。",
+    "email": null,
+    "privacy": null,
+    "id": "services/a/uid/000000a443c1ab97?hl=ja"
+  },
+  {
     "name": "LIFX",
     "author": "LiFi Labs Inc.",
     "description": "家中の照明を音声で簡単に操作できます。Google アシスタントに「OK Google」と話しかけるだけで、スイッチの切替え、明るさの調整、色の変更、カスタムグループの操作などを簡単に行えます。",
@@ -2560,12 +2576,44 @@
     "id": "services/a/uid/0000006d52fcb1fe?hl=ja"
   },
   {
+    "name": "HomeSeer",
+    "author": "HomeSeer Technologies LLC",
+    "description": "Google Home を使用して音声で HomeSeer システムを操作できます。",
+    "email": null,
+    "privacy": null,
+    "id": "services/a/uid/0000006782ca1e2e?hl=ja"
+  },
+  {
+    "name": "Leviton",
+    "author": "Leviton",
+    "description": "照明やプラグイン機器（テーブルランプ、扇風機など）を、いつでも音声で調節できます。壁面埋め込み型の調光器やスイッチ、プラグイン調光器、プラグイン コンセントなど、すべての Leviton Decora Smart with Wi-Fi Technology 製品に対応しています。天井の照明を暗くしたり、扇風機をつけたり、さまざまな操作が可能です。必要なのは Wi-Fi、スマート調光器、Google アシスタントだけ。ハブやブリッジなどのハードウェアを追加する必要はありません。",
+    "email": null,
+    "privacy": null,
+    "id": "services/a/uid/00000057d6b3f556?hl=ja"
+  },
+  {
     "name": "Iris",
     "author": "Lower's Companies Inc.",
     "description": "Google アシスタントを使って、Iris スマートホームを操作できます。Iris by Lowe's モバイルアプリをダウンロードして、Iris アカウントを作成してください。多くの場合、Iris Smart Hub が必要となります。Iris について詳しくは、IrisByLowes.com をご覧ください。",
     "email": null,
     "privacy": null,
     "id": "services/a/uid/00000042fb8660de?hl=ja"
+  },
+  {
+    "name": "UPB Bridge",
+    "author": "Universal Devices, Inc.",
+    "description": "Voice UPB Bridge は、自宅に設置した UPB Voice Bridge ハードウェア用のインターフェースです。照明や電化製品の操作、照明のオンオフなどが可能です。",
+    "email": null,
+    "privacy": null,
+    "id": "services/a/uid/0000003bd0c56d93?hl=ja"
+  },
+  {
+    "name": "Awair",
+    "author": "Bitfinder, Inc.",
+    "description": "Google アシスタントを使って、Awair Glow に接続されている製品の電源を直接オンまたはオフにできます。また、Awair Glow がオンになっているか、オフになっているかも確認できます（「OK Google、寝室の空気清浄機 / 加湿器 / 照明 / 扇風機 / ヒーターをつけて / 消して」「OK Google、寝室の空気清浄機の電源は入ってる？」）。",
+    "email": null,
+    "privacy": null,
+    "id": "services/a/uid/000000387ed437e3?hl=ja"
   },
   {
     "name": "iDevices",
@@ -2624,62 +2672,6 @@
     "id": "services/a/uid/0000005269c3aa64?hl=ja"
   },
   {
-    "name": "SmartThings",
-    "author": "Samsung SmartThings",
-    "description": "SmartThings と Google アシスタントを使用すれば、接続したデバイスを音声で操作できます。",
-    "email": null,
-    "privacy": null,
-    "id": "services/a/uid/00000027ebebb233?hl=ja"
-  },
-  {
-    "name": "Lutron Caseta Wireless",
-    "author": "Lutron Electronics Co., Inc.",
-    "description": "Lutron 社が提供する Caséta があれば、家中の照明を好きな場所から操作できます。電球の交換は必要はありません。550 種類以上の電球に対応する Caséta システムなら、手頃な価格でスマート照明へのアップグレードが可能です。",
-    "email": null,
-    "privacy": null,
-    "id": "services/a/uid/000000a6d9c1b8a2?hl=ja"
-  },
-  {
-    "name": "Hackajoe Labs",
-    "author": "Hook Smart Home",
-    "description": "Google アシスタントを使って Hook デバイスを操作できます。「OK Google」と話しかけ、Hook アプリに登録したデバイス名に続いて「オンにして」または「オフにして」と言うだけです。",
-    "email": null,
-    "privacy": null,
-    "id": "services/a/uid/000000a443c1ab97?hl=ja"
-  },
-  {
-    "name": "HomeSeer",
-    "author": "HomeSeer Technologies LLC",
-    "description": "Google Home を使用して音声で HomeSeer システムを操作できます。",
-    "email": null,
-    "privacy": null,
-    "id": "services/a/uid/0000006782ca1e2e?hl=ja"
-  },
-  {
-    "name": "Leviton",
-    "author": "Leviton",
-    "description": "照明やプラグイン機器（テーブルランプ、扇風機など）を、いつでも音声で調節できます。壁面埋め込み型の調光器やスイッチ、プラグイン調光器、プラグイン コンセントなど、すべての Leviton Decora Smart with Wi-Fi Technology 製品に対応しています。天井の照明を暗くしたり、扇風機をつけたり、さまざまな操作が可能です。必要なのは Wi-Fi、スマート調光器、Google アシスタントだけ。ハブやブリッジなどのハードウェアを追加する必要はありません。",
-    "email": null,
-    "privacy": null,
-    "id": "services/a/uid/00000057d6b3f556?hl=ja"
-  },
-  {
-    "name": "UPB Bridge",
-    "author": "Universal Devices, Inc.",
-    "description": "Voice UPB Bridge は、自宅に設置した UPB Voice Bridge ハードウェア用のインターフェースです。照明や電化製品の操作、照明のオンオフなどが可能です。",
-    "email": null,
-    "privacy": null,
-    "id": "services/a/uid/0000003bd0c56d93?hl=ja"
-  },
-  {
-    "name": "Awair",
-    "author": "Bitfinder, Inc.",
-    "description": "Google アシスタントを使って、Awair Glow に接続されている製品の電源を直接オンまたはオフにできます。また、Awair Glow がオンになっているか、オフになっているかも確認できます（「OK Google、寝室の空気清浄機 / 加湿器 / 照明 / 扇風機 / ヒーターをつけて / 消して」「OK Google、寝室の空気清浄機の電源は入ってる？」）。",
-    "email": null,
-    "privacy": null,
-    "id": "services/a/uid/000000387ed437e3?hl=ja"
-  },
-  {
     "name": "WeMo",
     "author": "Belkin International",
     "description": "WeＭo とアシスタントを使用すれば、手を使わず音声だけで照明や家電製品または部屋全体のデバイスを操作できます。",
@@ -2694,6 +2686,14 @@
     "email": null,
     "privacy": null,
     "id": "services/a/uid/00000042274b91de?hl=ja"
+  },
+  {
+    "name": "SmartThings",
+    "author": "Samsung SmartThings",
+    "description": "SmartThings と Google アシスタントを使用すれば、接続したデバイスを音声で操作できます。",
+    "email": null,
+    "privacy": null,
+    "id": "services/a/uid/00000027ebebb233?hl=ja"
   },
   {
     "name": "三目並べ",
