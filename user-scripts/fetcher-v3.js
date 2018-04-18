@@ -12,12 +12,12 @@ const scrollDown = async () => {
     pos = document.getElementsByClassName('y3IDJd')[0].scrollTop;
   }
 };
-const getFirstText = ele => ele.firstChild && ele.firstChild.textContent;
+const getFirstText = ele => ele.firstChild && ele.firstChild.nodeType === Node.TEXT_NODE && ele.firstChild.textContent;
 const getLink = ele => ele && ele.getAttribute('href');
 const getEmail = ele => { const href = getLink(ele); return href && href.startsWith('mailto:') && href.slice(7); };
 const getItem = () => ({
   name: document.querySelector('.nHPWwd').innerHTML,
-  author: getFirstText(document.querySelector('.Ry0mub')),
+  author: getFirstText(document.querySelector('.Ry0mub')) || '',
   description: document.querySelector('.JqJiee').innerHTML,
   email: getEmail(document.querySelector('.ReVo3:nth-of-type(1)')),
   privacy: getLink(document.querySelector('.ReVo3:nth-of-type(2)')),
