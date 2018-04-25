@@ -23,7 +23,7 @@ const getItem = () => ({
 const getData = async () => {
   const elements = [].filter.call(document.querySelectorAll('a'), ele => ele.getAttribute('href').startsWith('services/'));
   const items = [];
-  for (let i = 0; i < elements.length; ) {
+  for (let i = 0; i < elements.length; i += 1) {
     const ele = elements[i];
     if (ele.getAttribute('href') === 'services/a/uid/0000000cda5d5b9f?hl=ja') continue; // 404
     ele.click();
@@ -34,10 +34,10 @@ const getData = async () => {
     await sleep(1000);
     if (items.find(x => x.name === item.name)) {
       console.log('duplicated, redoing');
+      i -= 1;
     } else {
       items.push(item);
       console.log(item);
-      i += 1;
     }
   }
   return items;
