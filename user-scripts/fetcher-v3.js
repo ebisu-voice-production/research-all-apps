@@ -25,7 +25,7 @@ const getData = async () => {
   const items = [];
   for (let i = 0; i < elements.length; i += 1) {
     const ele = elements[i];
-    if (ele.getAttribute('href') === 'services/a/uid/0000000cda5d5b9f?hl=ja') continue; // 404
+    // if (ele.getAttribute('href') === 'services/a/uid/0000000cda5d5b9f?hl=ja') continue; // 404
     ele.click();
     await sleep(3000);
     const item = getItem();
