@@ -27,8 +27,15 @@ const getData = async () => {
     const ele = elements[i];
     // if (ele.getAttribute('href') === 'services/a/uid/0000000cda5d5b9f?hl=ja') continue; // 404
     ele.click();
-    await sleep(3500);
-    const item = getItem();
+    let item = null;
+    while(!item) {
+      await sleep(1000);
+      try {
+        item = getItem();
+      } catch(e) {
+        console.log('error getting item, retrying:', e);
+      }
+    }
     item.id = ele.getAttribute('href');
     history.back();
     await sleep(1000);
