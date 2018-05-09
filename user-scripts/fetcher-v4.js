@@ -16,7 +16,7 @@ const getItem = () => ({
   name: document.querySelector('.XIPoR.RfR9R').innerHTML,
   author: getFirstText(document.querySelector('.GCKci.CbqDob')) || '',
   description: document.querySelector('.JqJiee').innerHTML,
-  email: document.querySelector('.UxXfse.CdFZQ').innerHTML,
+  email: document.querySelector('.I3kQxc .UxXfse.CdFZQ').innerHTML,
   privacy: getLink(document.querySelector('.uyYuVb.oJeWuf')),
 });
 const getData = async () => {
