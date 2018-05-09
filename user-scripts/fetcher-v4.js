@@ -11,12 +11,13 @@ const scrollDown = async () => {
   }
 };
 const getFirstText = ele => ele.firstChild && ele.firstChild.nodeType === Node.TEXT_NODE && ele.firstChild.textContent;
+const getLink = ele => ele && ele.getAttribute('data-link');
 const getItem = () => ({
   name: document.querySelector('.XIPoR.RfR9R').innerHTML,
   author: getFirstText(document.querySelector('.GCKci.CbqDob')) || '',
   description: document.querySelector('.JqJiee').innerHTML,
   email: document.querySelector('.UxXfse.CdFZQ').innerHTML,
-  privacy: document.querySelector('.uyYuVb.oJeWuf').getAttribute('data-link'),
+  privacy: getLink(document.querySelector('.uyYuVb.oJeWuf')),
 });
 const getData = async () => {
   const elements = [].filter.call(document.querySelectorAll('a'), ele => ele.getAttribute('href').startsWith('services/'));
