@@ -12,12 +12,15 @@ const scrollDown = async () => {
 };
 const getHtml = ele => ele && ele.innerHTML || '';
 const getLink = ele => ele && ele.getAttribute('data-link') || '';
+const getContent = ele => ele && ele.getAttribute('content') || '';
 const getItem = () => ({
   name: document.querySelector('.XIPoR.RfR9R').innerHTML,
   author: getHtml(document.querySelector('.GCKci.CbqDob')),
   description: document.querySelector('.JqJiee').innerHTML,
   email: getHtml(document.querySelector('.I3kQxc .UxXfse.CdFZQ')),
   privacy: getLink(document.querySelector('.uyYuVb.oJeWuf')),
+  ratingValue: getContent(document.querySelector('meta[itemprop="ratingValue"]')),
+  ratingCount: getContent(document.querySelector('meta[itemprop="ratingCount"]')),
 });
 const getData = async () => {
   const elements = [].filter.call(document.querySelectorAll('a'), ele => ele.getAttribute('href').startsWith('services/'));
