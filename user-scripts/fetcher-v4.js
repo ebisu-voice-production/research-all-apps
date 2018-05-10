@@ -19,6 +19,7 @@ const getItem = () => ({
   description: document.querySelector('.JqJiee').innerHTML,
   email: getHtml(document.querySelector('.I3kQxc .UxXfse.CdFZQ')),
   privacy: getLink(document.querySelector('.uyYuVb.oJeWuf')),
+  category: getHtml(document.querySelector('.aciZVc .UxXfse.CdFZQ')),
   ratingValue: getContent(document.querySelector('meta[itemprop="ratingValue"]')),
   ratingCount: getContent(document.querySelector('meta[itemprop="ratingCount"]')),
 });
