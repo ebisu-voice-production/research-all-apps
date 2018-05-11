@@ -31,7 +31,7 @@ const getData = async () => {
     ele.click();
     let item = null;
     while(!item) {
-      await sleep(1500);
+      await sleep(1000);
       try {
         item = getItem();
       } catch(e) {
@@ -40,7 +40,7 @@ const getData = async () => {
     }
     item.id = ele.getAttribute('href');
     history.back();
-    await sleep(1000);
+    await sleep(1500);
     if (items.find(x => x.name === item.name)) {
       console.log('duplicated, redoing');
       i -= 1;
