@@ -31,7 +31,7 @@ const getData = async () => {
     ele.click();
     let item = null;
     while(!item) {
-      await sleep(2000);
+      await sleep(1500);
       try {
         item = getItem();
       } catch(e) {
