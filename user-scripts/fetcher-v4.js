@@ -14,7 +14,7 @@ const getHtml = ele => ele && ele.innerHTML || '';
 const getLink = ele => ele && ele.getAttribute('data-link') || '';
 const getContent = ele => ele && ele.getAttribute('content') || '';
 const getItem = () => ({
-  name: document.querySelector('.XIPoR.RfR9R').innerHTML,
+  name: document.querySelector('.YtWsM.RfR9R').innerHTML,
   author: getHtml(document.querySelector('.GCKci.CbqDob')),
   description: document.querySelector('.IB9ccf').innerHTML,
   email: getHtml(document.querySelector('.I3kQxc .UxXfse.CdFZQ')),
