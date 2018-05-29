@@ -15,11 +15,11 @@ const getLink = ele => ele && ele.getAttribute('data-link') || '';
 const getContent = ele => ele && ele.getAttribute('content') || '';
 const getItem = () => ({
   name: document.querySelector('.YtWsM.RfR9R').innerHTML,
-  author: getHtml(document.querySelector('.GCKci.CbqDob')),
+  author: getHtml(document.querySelector('.lUcxUb.CbqDob')),
   description: document.querySelector('.IB9ccf').innerHTML,
-  email: getHtml(document.querySelector('.I3kQxc .UxXfse.CdFZQ')),
-  privacy: getLink(document.querySelector('.uyYuVb.oJeWuf')),
-  category: getHtml(document.querySelector('.aciZVc .UxXfse.CdFZQ')),
+  email: getHtml(document.querySelector('.Awug7 .rkJR4e.CdFZQ')),
+  privacy: getLink(document.querySelector('div[jscontroller="aV7FHb"]')),
+  category: getHtml(document.querySelector('.HXoSSb .rkJR4e.CdFZQ')),
   ratingValue: getContent(document.querySelector('meta[itemprop="ratingValue"]')),
   ratingCount: getContent(document.querySelector('meta[itemprop="ratingCount"]')),
 });
