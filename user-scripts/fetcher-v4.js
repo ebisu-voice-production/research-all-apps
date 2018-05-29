@@ -16,7 +16,7 @@ const getContent = ele => ele && ele.getAttribute('content') || '';
 const getItem = () => ({
   name: document.querySelector('.XIPoR.RfR9R').innerHTML,
   author: getHtml(document.querySelector('.GCKci.CbqDob')),
-  description: document.querySelector('.JqJiee').innerHTML,
+  description: document.querySelector('.IB9ccf').innerHTML,
   email: getHtml(document.querySelector('.I3kQxc .UxXfse.CdFZQ')),
   privacy: getLink(document.querySelector('.uyYuVb.oJeWuf')),
   category: getHtml(document.querySelector('.aciZVc .UxXfse.CdFZQ')),
