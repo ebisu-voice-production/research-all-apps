@@ -18,7 +18,7 @@ const getItem = () => ({
   author: getHtml(document.querySelector('.lUcxUb.CbqDob')),
   description: document.querySelector('.IB9ccf').innerHTML,
   email: getHtml(document.querySelector('.Awug7 .rkJR4e.CdFZQ')),
-  privacy: getLink(document.querySelector('.X63loe')),
+  privacy: getLink(document.querySelector('.X63loe a')),
   category: getHtml(document.querySelector('.HXoSSb .rkJR4e.CdFZQ')),
   ratingValue: getContent(document.querySelector('meta[itemprop="ratingValue"]')),
   ratingCount: getContent(document.querySelector('meta[itemprop="ratingCount"]')),
