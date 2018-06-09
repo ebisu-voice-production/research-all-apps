@@ -40,7 +40,7 @@ const getData = async () => {
     }
     item.id = ele.getAttribute('href');
     history.back();
-    await sleep(1500);
+    await sleep(2000);
     if (items.find(x => x.name === item.name)) {
       console.log('duplicated, redoing');
       i -= 1;
