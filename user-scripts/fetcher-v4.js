@@ -40,7 +40,11 @@ const getData = async () => {
     }
     item.id = ele.getAttribute('href');
     history.back();
-    await sleep(2000);
+    await sleep(500);
+    while (document.querySelector(".NflRSb")) {
+      await sleep(500);
+      console.log('waiting for going back');
+    }
     if (items.find(x => x.name === item.name)) {
       console.log('duplicated, redoing');
       i -= 1;
