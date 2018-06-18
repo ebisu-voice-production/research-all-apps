@@ -40,9 +40,9 @@ const getData = async () => {
     }
     item.id = ele.getAttribute('data-link');
     history.back();
-    await sleep(500);
+    await sleep(800);
     while (document.querySelector(".NflRSb")) {
-      await sleep(500);
+      await sleep(300);
       console.log('waiting for going back');
     }
     if (items.find(x => x.name === item.name)) {
