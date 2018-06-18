@@ -38,7 +38,7 @@ const getData = async () => {
         console.log('error getting item, retrying:', e);
       }
     }
-    item.id = ele.getAttribute('href');
+    item.id = ele.getAttribute('data-link');
     history.back();
     await sleep(500);
     while (document.querySelector(".NflRSb")) {
