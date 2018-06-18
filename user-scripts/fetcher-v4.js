@@ -42,7 +42,7 @@ const getData = async () => {
     history.back();
     await sleep(800);
     while (document.querySelector(".NflRSb")) {
-      await sleep(300);
+      await sleep(500);
       console.log('waiting for going back');
     }
     if (items.find(x => x.name === item.name)) {
