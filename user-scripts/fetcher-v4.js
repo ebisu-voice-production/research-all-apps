@@ -29,6 +29,7 @@ const getData = async () => {
   for (let i = 0; i < elements.length; i += 1) {
     const ele = elements[i];
     if (ele.getAttribute('data-link').endsWith('/0000002723a42f3a?hl=ja')) continue;
+    if (ele.getAttribute('data-link').endsWith('/000000e09a6422cc?hl=ja')) continue;
     ele.click();
     let item = null;
     while(!item) {
