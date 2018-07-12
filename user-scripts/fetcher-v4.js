@@ -47,7 +47,7 @@ const getData = async () => {
       await sleep(500);
       console.log('waiting for going back');
     }
-    if (items.find(x => x.name === item.name)) {
+    if (items.find(x => x.name === item.name && x.author === item.author && x.description === item.description)) {
       console.log('duplicated, redoing');
       i -= 1;
     } else {
