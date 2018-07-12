@@ -19,7 +19,6 @@ const getItem = () => ({
   name: document.querySelector('.YtWsM.RfR9R').innerHTML,
   author: getHtml(document.querySelector('.lUcxUb.CbqDob')),
   description: document.querySelector('.IB9ccf').innerHTML,
-  email: getHtml(document.querySelector('.Awug7 .rkJR4e.CdFZQ')),
   privacy: getLink(document.querySelector('.X63loe a')),
   category: getHtml(getEle('//div[text()="詳細"]/..').querySelector('img + div')),
   devices: getList(getEle('//div[text()="使用可能なデバイス"]/..').querySelectorAll('img + div')),
