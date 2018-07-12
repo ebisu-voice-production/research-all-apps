@@ -10,7 +10,9 @@ const scrollDown = async () => {
     pos = document.getElementsByClassName('y3IDJd')[0].scrollTop;
   }
 };
+const getEle = xpath => document.evaluate(xpath, document, null, XPathResult.ANY_TYPE, null ).iterateNext();
 const getHtml = ele => ele && ele.innerHTML || '';
+const getList = lst => lst && [].map.call(lst, getHtml);
 const getLink = ele => ele && ele.getAttribute('href') || '';
 const getContent = ele => ele && ele.getAttribute('content') || '';
 const getItem = () => ({
@@ -19,7 +21,8 @@ const getItem = () => ({
   description: document.querySelector('.IB9ccf').innerHTML,
   email: getHtml(document.querySelector('.Awug7 .rkJR4e.CdFZQ')),
   privacy: getLink(document.querySelector('.X63loe a')),
-  category: getHtml(document.querySelector('.HXoSSb .rkJR4e.CdFZQ')),
+  category: getHtml(getEle('//div[text()="詳細"]/..').querySelector('img + div')),
+  devices: getList(getEle('//div[text()="使用可能なデバイス"]/..').querySelectorAll('img + div')),
   ratingValue: getContent(document.querySelector('meta[itemprop="ratingValue"]')),
   ratingCount: getContent(document.querySelector('meta[itemprop="ratingCount"]')),
 });
