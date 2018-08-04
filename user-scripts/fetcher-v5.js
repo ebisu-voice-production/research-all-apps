@@ -5,7 +5,7 @@ const scrollDown = async () => {
   let pos = -1;
   while (pos !== lastPos) {
     document.getElementsByClassName('y3IDJd')[0].scrollTop = 999999999;
-    await sleep(3000);
+    await sleep(4000);
     lastPos = pos;
     pos = document.getElementsByClassName('y3IDJd')[0].scrollTop;
   }
@@ -33,7 +33,7 @@ const getData = async () => {
     ele.click();
     let item = null;
     while(!item) {
-      await sleep(1000);
+      await sleep(2000);
       try {
         item = getItem();
       } catch(e) {
@@ -42,9 +42,9 @@ const getData = async () => {
     }
     item.id = ele.getAttribute('data-link');
     history.back();
-    await sleep(1000);
+    await sleep(2000);
     while (document.querySelector(".NflRSb")) {
-      await sleep(500);
+      await sleep(1000);
       console.log('waiting for going back');
     }
     if (items.find(x => x.name === item.name && x.author === item.author && x.description === item.description)) {
