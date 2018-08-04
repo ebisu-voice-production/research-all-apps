@@ -42,7 +42,7 @@ const getData = async () => {
     }
     item.id = ele.getAttribute('data-link');
     history.back();
-    await sleep(800);
+    await sleep(1000);
     while (document.querySelector(".NflRSb")) {
       await sleep(500);
       console.log('waiting for going back');
