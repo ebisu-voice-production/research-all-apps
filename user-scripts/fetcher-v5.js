@@ -30,6 +30,7 @@ const getData = async () => {
   const items = [];
   for (let i = 0; i < elements.length; i += 1) {
     const ele = elements[i];
+    if (ele.getAttribute('data-link') === 'services/a/uid/00000053dffc688d?hl=ja') continue;
     ele.click();
     let item = null;
     while(!item) {
@@ -44,9 +45,10 @@ const getData = async () => {
     history.back();
     await sleep(2000);
     while (document.querySelector(".NflRSb")) {
-      await sleep(1000);
       console.log('waiting for going back');
+      await sleep(1000);
     }
+    await sleep(2000);
     if (items.find(x => x.name === item.name && x.author === item.author && x.description === item.description)) {
       console.log('duplicated, redoing');
       i -= 1;
