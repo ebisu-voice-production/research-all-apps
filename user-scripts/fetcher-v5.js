@@ -25,9 +25,9 @@ const getItem = () => ({
   ratingValue: getContent(document.querySelector('meta[itemprop="ratingValue"]')),
   ratingCount: getContent(document.querySelector('meta[itemprop="ratingCount"]')),
 });
-let fwdWaitMs = 500;
-let bwdWaitMs = 500;
 const getData = async () => {
+  let fwdWaitMs = 500;
+  let bwdWaitMs = 500;
   const elements = [].filter.call(document.querySelectorAll('div[jsaction="click:KjsqPd"]'), ele => ele.getAttribute('data-link').startsWith('services/'));
   const items = [];
   for (let i = 0; i < elements.length; i += 1) {
