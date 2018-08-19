@@ -54,7 +54,7 @@ const getData = async () => {
     item.id = ele.getAttribute('data-link');
     history.back();
     await sleep(bwdWaitMs);
-    while (document.querySelector('.SSPGKf').className !== '.SSPGKf') {
+    while (document.querySelector('.SSPGKf').className !== 'SSPGKf') {
       console.log('waiting for going backward');
       await sleep(100);
       bwdWaitMs += 100;
