@@ -5,9 +5,12 @@ const scrollDown = async () => {
   let pos = -1;
   while (pos !== lastPos) {
     document.getElementsByClassName('y3IDJd')[0].scrollTop = 999999999;
-    await sleep(4000);
     lastPos = pos;
-    pos = document.getElementsByClassName('y3IDJd')[0].scrollTop;
+    for (let i = 0; i < 5; i += 1) {
+      await sleep(1000);                  
+      pos = document.getElementsByClassName('y3IDJd')[0].scrollTop;
+      if (pos !== lastPos) break;
+    }
   }
 };
 const getEle = xpath => document.evaluate(xpath, document, null, XPathResult.ANY_TYPE, null ).iterateNext();
@@ -32,7 +35,7 @@ const getData = async () => {
   const items = [];
   for (let i = 0; i < elements.length; i += 1) {
     const ele = elements[i];
-    if (ele.getAttribute('data-link') === 'services/a/uid/00000053dffc688d?hl=ja') continue;
+    // if (ele.getAttribute('data-link') === 'services/a/uid/00000053dffc688d?hl=ja') continue;
     ele.click();
     let item = null;
     await sleep(fwdWaitMs);
@@ -43,6 +46,7 @@ const getData = async () => {
         console.log('error getting item, retrying:', e);
       }
       if (!item) {
+        console.log('waiting for going forward');
         await sleep(100);
         fwdWaitMs += 100;
       }
@@ -50,8 +54,8 @@ const getData = async () => {
     item.id = ele.getAttribute('data-link');
     history.back();
     await sleep(bwdWaitMs);
-    while (document.querySelector(".NflRSb")) { // better way to check stability by checking non-exixtence
-      console.log('waiting for going back');
+    while (document.querySelector('.SSPGKf').className !== '.SSPGKf') {
+      console.log('waiting for going backward');
       await sleep(100);
       bwdWaitMs += 100;
     }
