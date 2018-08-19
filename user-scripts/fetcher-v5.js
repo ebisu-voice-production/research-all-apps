@@ -25,6 +25,8 @@ const getItem = () => ({
   ratingValue: getContent(document.querySelector('meta[itemprop="ratingValue"]')),
   ratingCount: getContent(document.querySelector('meta[itemprop="ratingCount"]')),
 });
+let fwdWaitMs = 500;
+let bwdWaitMs = 500;
 const getData = async () => {
   const elements = [].filter.call(document.querySelectorAll('div[jsaction="click:KjsqPd"]'), ele => ele.getAttribute('data-link').startsWith('services/'));
   const items = [];
@@ -33,22 +35,26 @@ const getData = async () => {
     if (ele.getAttribute('data-link') === 'services/a/uid/00000053dffc688d?hl=ja') continue;
     ele.click();
     let item = null;
-    while(!item) {
-      await sleep(2000);
+    await sleep(fwdWaitMs);
+    while (!item) {
       try {
         item = getItem();
       } catch(e) {
         console.log('error getting item, retrying:', e);
       }
+      if (!item) {
+        await sleep(100);
+        fwdWaitMs += 100;
+      }
     }
     item.id = ele.getAttribute('data-link');
     history.back();
-    await sleep(2000);
-    while (document.querySelector(".NflRSb")) {
+    await sleep(bwdWaitMs);
+    while (document.querySelector(".NflRSb")) { // better way to check stability by checking non-exixtence
       console.log('waiting for going back');
-      await sleep(1000);
+      await sleep(100);
+      bwdWaitMs += 100;
     }
-    await sleep(2000);
     if (items.find(x => x.name === item.name && x.author === item.author && x.description === item.description)) {
       console.log('duplicated, redoing');
       i -= 1;
