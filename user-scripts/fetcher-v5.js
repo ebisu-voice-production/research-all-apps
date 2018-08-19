@@ -30,6 +30,10 @@ const getItem = () => ({
 });
 let fwdWaitMs = 500;
 let bwdWaitMs = 500;
+const reset = () => {
+  fwdWaitMs = 500;
+  bwdWaitMs = 500;
+};
 const getData = async () => {
   const elements = [].filter.call(document.querySelectorAll('div[jsaction="click:KjsqPd"]'), ele => ele.getAttribute('data-link').startsWith('services/'));
   const items = [];
@@ -47,8 +51,8 @@ const getData = async () => {
       }
       if (!item) {
         console.log('waiting for going forward');
-        await sleep(fwdWaitMs);
-        fwdWaitMs *= 1.5;
+        await sleep(100);
+        fwdWaitMs += 100;
         if (fwdWaitMs > 30 * 1000) fwdWaitMs = 30 * 1000;
       }
     }
@@ -57,8 +61,8 @@ const getData = async () => {
     await sleep(bwdWaitMs);
     while (document.querySelector('.SSPGKf').className !== 'SSPGKf') {
       console.log('waiting for going backward');
-      await sleep(bwdWaitMs);
-      bwdWaitMs *= 1.5;
+      await sleep(100);
+      bwdWaitMs += 100;
       if (bwdWaitMs > 30 * 1000) bwsWaitMs = 30 * 1000;
     }
     if (items.find(x => x.name === item.name && x.author === item.author && x.description === item.description)) {
