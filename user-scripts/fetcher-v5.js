@@ -28,9 +28,9 @@ const getItem = () => ({
   ratingValue: getContent(document.querySelector('meta[itemprop="ratingValue"]')),
   ratingCount: getContent(document.querySelector('meta[itemprop="ratingCount"]')),
 });
+let fwdWaitMs = 500;
+let bwdWaitMs = 500;
 const getData = async () => {
-  let fwdWaitMs = 500;
-  let bwdWaitMs = 500;
   const elements = [].filter.call(document.querySelectorAll('div[jsaction="click:KjsqPd"]'), ele => ele.getAttribute('data-link').startsWith('services/'));
   const items = [];
   for (let i = 0; i < elements.length; i += 1) {
@@ -47,8 +47,9 @@ const getData = async () => {
       }
       if (!item) {
         console.log('waiting for going forward');
-        await sleep(100);
-        fwdWaitMs += 100;
+        await sleep(fwdWaitMs);
+        fwdWaitMs *= 1.5;
+        if (fwdWaitMs > 30 * 1000) fwdWaitMs = 30 * 1000;
       }
     }
     item.id = ele.getAttribute('data-link');
@@ -56,8 +57,9 @@ const getData = async () => {
     await sleep(bwdWaitMs);
     while (document.querySelector('.SSPGKf').className !== 'SSPGKf') {
       console.log('waiting for going backward');
-      await sleep(100);
-      bwdWaitMs += 100;
+      await sleep(bwdWaitMs);
+      bwdWaitMs *= 1.5;
+      if (bwdWaitMs > 30 * 1000) bwsWaitMs = 30 * 1000;
     }
     if (items.find(x => x.name === item.name && x.author === item.author && x.description === item.description)) {
       console.log('duplicated, redoing');
