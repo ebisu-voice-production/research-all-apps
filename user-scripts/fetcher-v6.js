@@ -41,7 +41,7 @@ const getData = async () => {
   const items = [];
   for (let i = 0; i < elements.length; i += 1) {
     const ele = elements[i];
-    // if (ele.getAttribute('data-link') === 'services/a/uid/00000053dffc688d?hl=ja') continue;
+    if (ele.getAttribute('data-link') === 'services/a/uid/0000001ea1295075?hl=ja') continue;
     ele.click();
     let item = null;
     await sleep(fwdWaitMs);
