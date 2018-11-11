@@ -6,7 +6,7 @@ const scrollDown = async () => {
   while (pos !== lastPos) {
     document.getElementsByClassName('y3IDJd')[0].scrollTop = 999999999;
     lastPos = pos;
-    for (let i = 0; i < 5; i += 1) {
+    for (let i = 0; i < 10; i += 1) {
       await sleep(1000);                  
       pos = document.getElementsByClassName('y3IDJd')[0].scrollTop;
       if (pos !== lastPos) break;
