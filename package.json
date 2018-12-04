@@ -8,8 +8,10 @@
   },
   "dependencies": {
     "moment": "latest",
-    "puppeteer": "^1.11.0",
     "request": "latest",
     "request-promise-native": "latest"
+  },
+  "devDependencies": {
+    "puppeteer": "^1.11.0"
   }
 }
