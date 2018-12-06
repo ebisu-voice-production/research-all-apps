@@ -2,15 +2,17 @@ const TARGET = 'https://assistant.google.com/explore/g/5?hl=ja';
 
 const scrollDown = async () => {
   const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+  document.getElementsByClassName('MUd2qe')[0].style.overflow = 'inherit';
+  document.getElementsByClassName('y3IDJd')[0].style.overflow = 'inherit';
   let lastPos = 0;
   let pos = -1;
   while (pos !== lastPos) {
-    document.getElementsByClassName('y3IDJd')[0].scrollTop = 999999999;
+    document.getElementsByClassName('T4LgNb')[0].scrollTop = 999999999;
     lastPos = pos;
     for (let i = 0; i < 10; i += 1) {
       window.resizeBy(-1, 0);
       await sleep(1000);                  
-      pos = document.getElementsByClassName('y3IDJd')[0].scrollTop;
+      pos = document.getElementsByClassName('T4LgNb')[0].scrollTop;
       if (pos !== lastPos) break;
     }
   }
