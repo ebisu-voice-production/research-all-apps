@@ -79,7 +79,7 @@ const getData = async () => {
       i -= 1;
     } else {
       items.push(item);
-      console.log(item);
+      console.log('processed ' + item.id, item);
     }
   }
   return items;
