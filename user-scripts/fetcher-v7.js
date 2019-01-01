@@ -62,7 +62,7 @@ const getData = async () => {
         console.log('waiting for going forward');
         await sleep(100);
         fwdWaitMs += 100;
-        if (fwdWaitMs > 30 * 1000) fwdWaitMs = 30 * 1000;
+        if (fwdWaitMs > 5 * 1000) fwdWaitMs = 5 * 1000;
       }
     }
     item.id = ele.getAttribute('data-link');
@@ -72,7 +72,7 @@ const getData = async () => {
       console.log('waiting for going backward');
       await sleep(100);
       bwdWaitMs += 100;
-      if (bwdWaitMs > 30 * 1000) bwsWaitMs = 30 * 1000;
+      if (bwdWaitMs > 5 * 1000) bwsWaitMs = 5 * 1000;
     }
     if (items.find(x => x.name === item.name && x.author === item.author && x.description === item.description)) {
       console.log('duplicated, redoing');
