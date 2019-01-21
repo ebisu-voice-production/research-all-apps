@@ -44,11 +44,10 @@ const getData = async () => {
     bwdWaitMs = 500;
   };
 
-  const elements = [].filter.call(getEleAll('//div[@data-name]'), ele => ele.getAttribute('data-link').startsWith('services/'));
+  const elements = [].filter.call(getEleAll('//a'), ele => ele.getAttribute('href').startsWith('services/'));
   const items = [];
   for (let i = 0; i < elements.length; i += 1) {
     const ele = elements[i];
-    if (ele.getAttribute('data-link') === 'services/a/uid/0000001ea1295075?hl=ja') continue;
     ele.click();
     let item = null;
     await sleep(fwdWaitMs);
