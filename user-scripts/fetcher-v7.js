@@ -64,7 +64,7 @@ const getData = async () => {
         if (fwdWaitMs > 5 * 1000) fwdWaitMs = 5 * 1000;
       }
     }
-    item.id = ele.getAttribute('data-link');
+    item.id = ele.getAttribute('href');
     history.back();
     await sleep(bwdWaitMs);
     while (document.querySelector('.SSPGKf').className !== 'SSPGKf') {
