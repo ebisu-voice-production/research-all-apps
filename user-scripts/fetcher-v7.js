@@ -39,10 +39,6 @@ const getData = async () => {
   });
   let fwdWaitMs = 500;
   let bwdWaitMs = 500;
-  const reset = () => {
-    fwdWaitMs = 500;
-    bwdWaitMs = 500;
-  };
 
   const elements = [].filter.call(getEleAll('//a'), ele => ele.getAttribute('href').startsWith('services/'));
   const items = [];
