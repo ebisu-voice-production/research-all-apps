@@ -44,6 +44,7 @@ const getData = async () => {
   const items = [];
   for (let i = 0; i < elements.length; i += 1) {
     const ele = elements[i];
+    if (ele.getAttribute('href') === 'services/a/uid/0000004b49b0e661') continue;
     ele.click();
     let item = null;
     await sleep(fwdWaitMs);
