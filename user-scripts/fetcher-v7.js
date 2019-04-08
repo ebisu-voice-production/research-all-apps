@@ -45,6 +45,7 @@ const getData = async () => {
   for (let i = 0; i < elements.length; i += 1) {
     const ele = elements[i];
     if (ele.getAttribute('href') === 'services/a/uid/0000004b49b0e661') continue;
+    if (ele.getAttribute('href') === 'services/a/uid/000000efd55c8201') continue;
     ele.click();
     let item = null;
     await sleep(fwdWaitMs);
@@ -65,7 +66,7 @@ const getData = async () => {
     history.back();
     await sleep(bwdWaitMs);
     while (document.querySelector('.SSPGKf').className !== 'SSPGKf') {
-      console.log('waiting for going backward');
+      console.log('waiting for going backward ' + item.id);
       await sleep(100);
       bwdWaitMs += 100;
       if (bwdWaitMs > 5 * 1000) bwsWaitMs = 5 * 1000;
