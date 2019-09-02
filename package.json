@@ -12,6 +12,6 @@
     "request-promise-native": "latest"
   },
   "devDependencies": {
-    "puppeteer": "^1.11.0"
+    "puppeteer": "^1.19.0"
   }
 }
