@@ -9,7 +9,7 @@ const scrollDown = async () => {
     lastPos = pos;
     for (let i = 0; i < 10; i += 1) {
       window.resizeBy(-1, 0);
-      await sleep(1000);                  
+      await sleep(3000);
       pos = document.getElementsByClassName('y3IDJd')[0].scrollTop;
       if (pos !== lastPos) break;
     }
