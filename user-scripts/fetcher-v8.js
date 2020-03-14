@@ -44,10 +44,14 @@ const getData = async () => {
   for (let i = 0; i < elements.length; i += 1) {
     const ele = elements[i];
     if (ele.getAttribute('href') === 'services/a/uid/00000041cb62690a') continue;
-    if (ele.getAttribute('href') === 'services/a/uid/0000004b49b0e661') continue;
-    if (ele.getAttribute('href') === 'services/a/uid/000000efd55c8201') continue;
-    if (ele.getAttribute('href') === 'services/a/uid/00000001d96ac941') continue;
     if (ele.getAttribute('href') === 'services/a/uid/000000f6a22aa5c1') continue;
+    if (ele.getAttribute('href') === 'services/a/uid/0000007769153fa0') continue;
+    if (ele.getAttribute('href') === 'services/a/uid/000000b65204a3dc') continue;
+    if (ele.getAttribute('href') === 'services/a/uid/000000897c9cdcb0') continue;
+    if (ele.getAttribute('href') === 'services/a/uid/00000042024f0e53') continue;
+    if (ele.getAttribute('href') === 'services/a/uid/0000008030e15402') continue;
+    if (ele.getAttribute('href') === 'services/a/uid/0000007f4f6ee210') continue;
+    if (ele.getAttribute('href') === 'services/a/uid/000000efd55c8201') continue;
     ele.click();
     let item = null;
     await sleep(fwdWaitMs);
