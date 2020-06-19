@@ -1,4 +1,5 @@
-const TARGET = 'https://assistant.google.com/explore/g/5?hl=ja';
+// const TARGET = 'https://assistant.google.com/explore/g/5?hl=ja';
+const TARGET = 'https://assistant.google.com/explore/g/9?hl=ja-JP';
 
 const scrollDown = async () => {
   const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
