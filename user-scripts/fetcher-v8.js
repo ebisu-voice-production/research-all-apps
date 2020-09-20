@@ -51,6 +51,7 @@ const getData = async () => {
     if (ele.getAttribute('href') === 'services/a/uid/000000f6a22aa5c1') continue;
     if (ele.getAttribute('href') === 'services/a/uid/00000041cb62690a') continue;
     if (ele.getAttribute('href') === 'services/a/uid/000000b65204a3dc') continue;
+    if (ele.getAttribute('href') === 'services/a/uid/000000a352162e93') continue;
     ele.click();
     let item = null;
     await sleep(fwdWaitMs);
