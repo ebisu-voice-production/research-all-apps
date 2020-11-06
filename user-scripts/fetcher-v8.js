@@ -63,7 +63,7 @@ const getData = async () => {
       }
       if (!item) {
         console.log('waiting for going forward');
-        await sleep(100);
+        await sleep(1000);
         fwdWaitMs += 100;
         if (fwdWaitMs > 5 * 1000) fwdWaitMs = 5 * 1000;
       }
